@@ -114,6 +114,3 @@ if __name__ == '__main__':
     # 调用函数进行比较，output_dir将自动从dup_file_path提取
     compare_data_files(raw_file_path, dup_file_path)
     
-    # 如果需要比较其他文件，可以再次调用函数
-    # dup_file_path2 = "/aix_datas/data/SFT_all.json"
-    # compare_data_files(raw_file_path, dup_file_path2)
