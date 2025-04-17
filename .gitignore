@@ -1,0 +1,9 @@
+/aix_datas/data
+/aix_datas/outputs
+Miniconda3-latest-Linux-x86_64.sh
+__pycache__/
+data/
+outputs/
+
+load_data.py
+
