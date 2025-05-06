@@ -5,6 +5,7 @@ from collections import defaultdict
 
 def data_file_summary(file_path):
     # 使用字典来统计每个 source_prompt_id 的数量
+    
     prompt_id_counts = defaultdict(int)
     total_count = 0
 
@@ -108,8 +109,8 @@ def compare_data_files(raw_file_path, dup_file_path, output_dir=None, print_diff
 
 if __name__ == '__main__':
     # 示例用法
-    raw_file_path = "data/prompt_all.json"
-    dup_file_path = "outputs/prompt_all/all_dedup_eps0.2/all_files_dedup_eps0.2.jsonl"
+    raw_file_path = "./data/COT_all.json"
+    dup_file_path = "outputs/COT_all/dedup_eps0.2/all_files_dedup_eps0.2.jsonl"
     
     # 调用函数进行比较，output_dir将自动从dup_file_path提取
     compare_data_files(raw_file_path, dup_file_path)

@@ -91,9 +91,7 @@ def process_all_files(input_file_path, gpu_id, output_dir, embedding_dir, eps, m
         print(f'Process clustering for all files on GPU {gpu_id}')
         
         try:
-            import cudf
-            import cuml
-            from cuml.cluster import DBSCAN as cuDBSCAN
+            
             
             print("使用GPU加速的DBSCAN聚类（分批处理）...")
             

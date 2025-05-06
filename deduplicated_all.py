@@ -9,7 +9,7 @@ from sklearn.cluster import DBSCAN
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from read_data import read_all_prompt_data
 from data_summary import compare_data_files
-
+import time
 
 
 # 批量生成嵌入函数
@@ -28,7 +28,7 @@ def encode_in_batches(prompts, model_path, batch_size=32, gpu_id=None):
 def save_combined_top_cluster_path(clustered_prompts, prompts_nums, clustered_num, deduplicate_num, combined_top_cluster_path, id_key_data, id_key_data_nums, all_raw_data_dict):
         # 按照key中prompt的个数降序排序
     sorted_data = sorted(clustered_prompts.items(), key=lambda item: len(item[1]), reverse=True)  
-    top_1000_cluster = sorted_data[:1000]
+    top_1000_cluster = sorted_data[:500]
     with open(combined_top_cluster_path, 'w') as f:
         f.write(f"数据总量: {id_key_data_nums}"+ "\n")
         f.write(f"去掉完全相同prompt后的数据量: {prompts_nums}"+ "\n")
@@ -97,9 +97,10 @@ def process_all_files(input_file_path, gpu_id, output_dir, embedding_dir, eps, m
     # 检查并生成聚类标签
     if not os.path.exists(combined_labels_path):
         print(f'Process clustering for all files on GPU {gpu_id}')
-        dbscan = DBSCAN(eps=eps, min_samples=1, n_jobs=-1)
+        start_time = time.time()
+        dbscan = DBSCAN(eps=eps, min_samples=1, n_jobs=256)
         labels = dbscan.fit_predict(embeddings)
-        print("聚类完成")
+        print("聚类完成，用时：", time.time() - start_time)
         np.save(combined_labels_path, labels)
         print(f"Clustering complete for all files, labels saved as {combined_labels_path}")
     else:
@@ -144,16 +145,18 @@ def process_all_files(input_file_path, gpu_id, output_dir, embedding_dir, eps, m
     compare_data_files(input_file_path, combined_output_path)
         
     # data_summary(input_file_paths, file_original_counts, file_dedup_counts)
+
+
 # 主程序
 if __name__ == "__main__":
     
 
     # input_file = "data/prompt_all.json"
-    # input_file = "./data/SFT_all.json"
-    input_file = "./data/preference_all.json"
+    input_file = "./data/test_COT_all.json"
+    # input_file = "./data/COT_all.json"
 
-    eps = 0.25
-    embedding_dir = 'outputs/preference_all'
+    eps = 0.3
+    embedding_dir = 'outputs/test/COT_all'
     os.makedirs(embedding_dir, exist_ok=True)
     output_path = embedding_dir + "/" + f"all_dedup_eps{str(eps)}"
     os.makedirs(output_path, exist_ok=True)
@@ -162,3 +165,8 @@ if __name__ == "__main__":
     
     # 使用新的函数处理所有文件
     process_all_files(input_file, '3', output_path, embedding_dir, eps)
+
+
+
+# python deduplicated_all.py > /aix_datas/logs/COT_all/COT_all_dedup0.3_log.txt 2>&1
+# tail -f /aix_datas/logs/COT_all/COT_all_dedup0.3_log.txt

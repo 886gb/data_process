@@ -24,14 +24,18 @@ def process_files(directory_path, output_file):
     with open(output_file, 'w', encoding='utf-8') as out_f:
         for root, dirs, files in os.walk(directory_path):
             for file in files:
-                if file.endswith(".json"):
+                if file.endswith(".json") or file.endswith(".jsonl"):
                     file_path = os.path.join(root, file)
                     
-                    # # breakpoint()
-                    # if file_path != "./data/preference/lmarena-ai/arena-human-preference-55k.json":
+                    print(file_path)
+                    # breakpoint()
+                    # if file_path != "./data/COT/a-m-team/am_0.5M.jsonl":
                     #     continue
-
-                    lines, prompts = read_data(file_path, read_limit_num=-1)
+                    # if "a-m-team" not in file_path:
+                    #     continue
+                    # breakpoint()
+                    
+                    lines, prompts = read_data(file_path, read_limit_num=13)
                     print(f"文件 {file_path} 共有 {len(lines)} 条数据, prompts 共有 {len(prompts)} 条")
                     print()
                     for i, (line, prompt) in enumerate(zip(lines, prompts)):
@@ -55,9 +59,10 @@ if __name__ == "__main__":
     # directory_to_process = "./data/test"
     # directory_to_process = "./data/SFT"
     directory_to_process = "./data/preference"
+    # directory_to_process = "./data/COT"
     
     # 获取父目录并设置输出文件路径
-    output_file_path = os.path.dirname(directory_to_process) +"/"+directory_to_process.split("/")[-1] + "_all.json"
+    output_file_path = os.path.dirname(directory_to_process) +"/"+directory_to_process.split("/")[-1] + "_test.json"
     
     # 处理文件
     process_files(directory_to_process, output_file_path)

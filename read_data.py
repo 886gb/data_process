@@ -74,16 +74,20 @@ def read_data(input_path, read_limit_num=None):
 
             
     elif input_path.split("/")[2] == "COT":
+        # breakpoint()
         if "KodCode_V1_SFT_R1_train" in input_path:
             raw_data_dict, prompts = read_KodCode_V1_SFT_R1_train(input_path, read_limit_num)
         elif "open-r1" in input_path:
-            raw_data_dict, prompts = read_open_r1(input_path, read_limit_num)
+            if "codeforces_cots_solutions_decontaminated" in input_path:
+                raw_data_dict, prompts = read_codeforces_cots_solutions_decontaminated(input_path, read_limit_num)
+            else:
+                raw_data_dict, prompts = read_open_r1(input_path, read_limit_num)
         elif "GAIR" in input_path:
-            raw_data_dict, prompts = read_GAIR(input_path, read_limit_num)
+            raw_data_dict, prompts = read_COT_GAIR(input_path, read_limit_num)
         elif "simplescaling" in input_path:
             raw_data_dict, prompts = read_simplescaling(input_path, read_limit_num)
         elif "OpenThoughts-114k_metadata" in input_path:
-            raw_data_dict, prompts = read_OpenThoughts_114k_metadata(input_path)
+            raw_data_dict, prompts = read_OpenThoughts_114k_metadata(input_path, read_limit_num)
         elif "Llama-Nemotron-Post-Training-Dataset-v1" in input_path:
             raw_data_dict, prompts = read_Llama_Nemotron_Post_Training_Dataset_v1(input_path, read_limit_num)
         elif "GeneralThought-430K" in input_path:
@@ -100,11 +104,22 @@ def read_data(input_path, read_limit_num=None):
             raw_data_dict, prompts = read_NuminaMath_CoT(input_path, read_limit_num)
         elif "nvidia" in input_path:
             raw_data_dict, prompts = read_nvidia(input_path, read_limit_num)
+        elif "a-m-team" in input_path:
+            raw_data_dict, prompts = read_a_m_team(input_path, read_limit_num)
     else:
         print("未选择输入文件")
         return    
     return raw_data_dict, prompts
 
+
+def read_a_m_team(input_path, read_limit_num):
+    prompts = []
+    with open(input_path, 'r') as f:
+        lines = f.readlines()
+        for line in lines[:read_limit_num]:
+            line = json.loads(line)
+            prompts.append(line['messages'][0]['content'])
+    return lines[:read_limit_num], prompts
 
 
 def read_nvidia(input_path, read_limit_num):
@@ -148,7 +163,7 @@ def read_Chinese_DeepSeek_R1_Distill_data_110k(input_path, read_limit_num):
         lines = f.readlines()
         for line in lines[:read_limit_num]:
             line = json.loads(line)
-            prompts.append(line['messages'][0]['content'])
+            prompts.append(line['input'])
     return lines[:read_limit_num], prompts
 
 
@@ -158,6 +173,7 @@ def read_AM_DeepSeek_R1_Distilled_1_4M(input_path, read_limit_num):
         lines = f.readlines()
         for line in lines[:read_limit_num]:
             line = json.loads(line)
+            # breakpoint()
             prompts.append(line['messages'][0]['content'])
     return lines[:read_limit_num], prompts
 
@@ -176,6 +192,7 @@ def read_GeneralThought_430K(input_path, read_limit_num):
 
 # 检查
 def read_Llama_Nemotron_Post_Training_Dataset_v1(input_path, read_limit_num):
+    breakpoint()
     prompts = []
     with open(input_path, 'r') as f:
         lines = f.readlines()
@@ -209,14 +226,15 @@ def read_simplescaling(input_path, read_limit_num):
             prompts.append(line['question'])
     return lines[:read_limit_num], prompts
 
-def read_GAIR(input_path, read_limit_num):
+def read_COT_GAIR(input_path, read_limit_num):
     prompts = []
     with open(input_path, 'r') as f:
         lines = f.readlines()
         for line in lines[:read_limit_num]:
             line = json.loads(line)
+            # breakpoint()
             prompts.append(line['question'])
-
+    return lines[:read_limit_num], prompts
 
 def read_open_r1(input_path, read_limit_num):
     prompts = []
@@ -224,7 +242,21 @@ def read_open_r1(input_path, read_limit_num):
         lines = f.readlines()
         for line in lines[:read_limit_num]:
             line = json.loads(line)
+            # breakpoint()
             prompts.append(line['prompt'])
+    return lines[:read_limit_num], prompts
+
+
+def read_codeforces_cots_solutions_decontaminated(input_path, read_limit_num):
+    prompts = []
+    with open(input_path, 'r') as f:
+        lines = f.readlines()
+        for line in lines[:read_limit_num]:
+            line = json.loads(line)
+            # breakpoint()
+            prompts.append(line['problem'])
+    return lines[:read_limit_num], prompts
+
 
 def read_KodCode_V1_SFT_R1_train(input_path, read_limit_num):
     prompts = []
@@ -232,6 +264,7 @@ def read_KodCode_V1_SFT_R1_train(input_path, read_limit_num):
         lines = f.readlines()
         for line in lines[:read_limit_num]:
             line = json.loads(line)
+            # breakpoint()
             prompts.append(line['question'])
     return lines[:read_limit_num], prompts
 
@@ -486,7 +519,7 @@ def read_OpenThoughts_114_prompts(input_path):
     prompts = []
     with jsonlines.open(input_path, 'r') as f:
         for line in f:
-            breakpoint()
+            # breakpoint()
             prompts.append(line['conversations'][0]['value'])
             raw_data_dict[line['conversations'][0]['value']] = line
             

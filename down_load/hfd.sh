@@ -131,13 +131,30 @@ METADATA_FILE="$LOCAL_DIR/.hfd/repo_metadata.json"
 
 # Fetch and save metadata
 fetch_and_save_metadata() {
+    # 确保目标目录存在
+    mkdir -p "$(dirname "$METADATA_FILE")"
+    
     status_code=$(curl -L -s -w "%{http_code}" -o "$METADATA_FILE" ${HF_TOKEN:+-H "Authorization: Bearer $HF_TOKEN"} "$API_URL")
-    RESPONSE=$(cat "$METADATA_FILE")
+    
+    # 检查 curl 是否成功执行（状态码为0表示成功）
+    if [ $? -ne 0 ]; then
+        printf "%b[Error] Network error when connecting to $API_URL. Please check your internet connection.%b\n" "${RED}" "${NC}" >&2
+        # 如果文件已创建但可能不完整，则删除它
+        [ -f "$METADATA_FILE" ] && rm "$METADATA_FILE"
+        exit 1
+    fi
+    
+    # 检查 HTTP 状态码
     if [ "$status_code" -eq 200 ]; then
+        RESPONSE=$(cat "$METADATA_FILE")
         printf "%s\n" "$RESPONSE"
     else
-        printf "%b[Error] Failed to fetch metadata from $API_URL. HTTP status code: $status_code.%b\n$RESPONSE\n" "${RED}" "${NC}" >&2
-        rm $METADATA_FILE
+        printf "%b[Error] Failed to fetch metadata from $API_URL. HTTP status code: $status_code.%b\n" "${RED}" "${NC}" >&2
+        # 如果服务器返回了错误响应，可能会有错误信息
+        if [ -f "$METADATA_FILE" ] && [ -s "$METADATA_FILE" ]; then
+            cat "$METADATA_FILE" >&2
+            rm "$METADATA_FILE"
+        fi
         exit 1
     fi
 }
