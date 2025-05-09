@@ -29,13 +29,13 @@ def process_files(directory_path, output_file):
                     
                     print(file_path)
                     # breakpoint()
-                    # if file_path != "./data/COT/a-m-team/am_0.5M.jsonl":
+                    # if file_path != "./data/preference/HelpSteer3/HelpSteer3_edit.json":
                     #     continue
-                    # if "a-m-team" not in file_path:
+                    # if "./data/preference/HelpSteer3" not in file_path:
                     #     continue
                     # breakpoint()
                     
-                    lines, prompts = read_data(file_path, read_limit_num=13)
+                    lines, prompts = read_data(file_path, read_limit_num=-1)
                     print(f"文件 {file_path} 共有 {len(lines)} 条数据, prompts 共有 {len(prompts)} 条")
                     print()
                     for i, (line, prompt) in enumerate(zip(lines, prompts)):

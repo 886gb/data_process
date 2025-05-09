@@ -276,16 +276,17 @@ def read_HelpSteer3(input_path, read_limit_num):
         lines = f.readlines()
         for line in lines[:read_limit_num]:
             line = json.loads(line)
+            
             if isinstance(line['context'], list):
                 prompt_content = ""
                 for item in line['context']:
-                    if 'content' in item:
+                    if 'content' in item and item['role'] == 'user':
                         prompt_content += item['content'] + "\n"
                 prompts.append(prompt_content.strip())
-            elif isinstance(line['context'], dict) and 'content' in line['context']:
-                prompts.append(line['context']['content'])
-            else:
-                prompts.append(line['prompt'])
+            # elif isinstance(line['context'], dict) and 'content' in line['context']:
+            #     prompts.append(line['context']['content'])
+            # else:
+            #     prompts.append(line['prompt'])
     return lines[:read_limit_num], prompts
 
 

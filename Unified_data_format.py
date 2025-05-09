@@ -195,7 +195,7 @@ def process_preference_data(file_path, output_file):
             # if chosen == "" and rejected == "":
             #     continue
             data = {"all_prompt_id": line['all_prompt_id'],
-                    "source_prompt_id": prompt_source,
+                    "source_prompt_id": line['source_prompt_id'],
                     "prompt": prompt,
                     "chosen": chosen,
                     "rejected": rejected,
@@ -210,10 +210,9 @@ def process_cot_data(file_path, output_file):
             metadata = line['metadata']
             prompt_source = line['source_prompt_id'].split('/')[-2]
             metadata = json.loads(metadata)
-            breakpoint()
             thinking, answer = exact_cot_data(prompt_source, metadata)
             data = {"all_prompt_id": line['all_prompt_id'],
-                    "source_prompt_id": prompt_source,
+                    "source_prompt_id": line['source_prompt_id'],
                     "prompt": line['prompt'],
                     "thinking": thinking,
                     "answer": answer,
@@ -230,7 +229,7 @@ def process_sft_data(file_path, output_file):
             metadata = json.loads(metadata)
             answer = exact_sft_data(prompt_source, metadata, line['source_prompt_id'])
             data = {"all_prompt_id": line['all_prompt_id'],
-                    "source_prompt_id": prompt_source,
+                    "source_prompt_id": line['source_prompt_id'],
                     "prompt": line['prompt'],
                     "answer": answer,
                     "metadata": metadata}
@@ -260,8 +259,9 @@ def process_files(input_file, output_file):
 
 if __name__ == "__main__":
     
-    input_file = "data/preference_test.json"
-    output_file = "outputs/test/process/test_preference_all.json"
+    input_file = "data/test_SFT_all.json"
+    
+    output_file = "outputs/test/process/test_SFT_all.json"
     
     
     process_files(input_file, output_file)

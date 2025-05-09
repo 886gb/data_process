@@ -14,7 +14,6 @@ import json
 from data_summary import compare_data_files
 
 
-
 # 分批读取数据函数
 def read_data_in_batches(file_path, batch_size=10000):
     """分批读取大型JSON文件"""
@@ -266,8 +265,8 @@ def process_all_files_in_batches(input_file_path, gpu_id, output_dir, embedding_
     print("总去重量", total_records - clustered_num)
 
     # 保存top500的簇
-    # save_combined_top_cluster_path(clustered_prompts, prompts_nums, clustered_num, deduplicate_num, 
-    #                               combined_top_cluster_path, total_records, all_raw_data_dict)
+    save_combined_top_cluster_path(clustered_prompts, prompts_nums, clustered_num, deduplicate_num, 
+                                  combined_top_cluster_path, total_records, all_raw_data_dict)
     
     print(f"top500的簇已保存至 {combined_top_cluster_path}")
     
@@ -288,12 +287,12 @@ def process_all_files_in_batches(input_file_path, gpu_id, output_dir, embedding_
     print("处理完成！")
 
 
-# 主程序
+# 主程序  
 if __name__ == "__main__":
-    input_file_path = "./data/COT_all.json"
+    input_file_path = "./data/preference_all.json"
     eps = 0.1
-    embedding_dir = 'outputs/COT_all/embeddings'
-    output_path = 'outputs/COT_all/dedup_eps' + str(eps)
+    embedding_dir = 'outputs/preference_all/embeddings'
+    output_path = 'outputs/preference_all/dedup_eps' + str(eps)
     
     os.makedirs(embedding_dir, exist_ok=True)
     os.makedirs(output_path, exist_ok=True)
@@ -301,7 +300,7 @@ if __name__ == "__main__":
     # 使用分批处理函数
     process_all_files_in_batches(
         input_file_path=input_file_path,
-        gpu_id='3',
+        gpu_id='2',
         output_dir=output_path,
         embedding_dir=embedding_dir,
         eps=eps,
@@ -310,5 +309,5 @@ if __name__ == "__main__":
     )
 
 
-# python deduplicated_all_batch.py > /aix_datas/logs/COT_all/COT_all_dedup0.1_log.txt 2>&1
-# tail -f /aix_datas/logs/COT_all/COT_all_dedup0.1_log.txt
+# python deduplicated_all_batch.py > /aix_datas/logs/preference_all/preference_all_dedup0.1_log.txt 2>&1
+# tail -f /aix_datas/logs/preference_all/preference_all_dedup0.1_log.txt

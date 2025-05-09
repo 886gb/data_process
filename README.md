@@ -22,3 +22,4 @@ OpenR1-Math-220k 如果chosen和rejected都为空，可能是平局也可能是�
 
 
 
+HelpSteer3  prompt有问题
