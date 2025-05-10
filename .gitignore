@@ -10,14 +10,12 @@ __pycache__/
 *.pyo
 *.pyd
 
-# 大文件
-/aix_datas/14_data_process/data
-/aix_datas/14_data_process/outputs
+# 大文件目录
+14_data_process/data/
+14_data_process/outputs/
+local_data_process/data/
+local_data_process/output/
 
-/aix_datas/local_data_process/data
-/aix_datas/local_data_process/output
-
-# 敏感信息
-/aix_datas/14_data_process/load_data.py
-/aix_datas/local_data_process/load_data.py
-
+# 配置信息
+14_data_process/load_data.py
+local_data_process/load_data.py
