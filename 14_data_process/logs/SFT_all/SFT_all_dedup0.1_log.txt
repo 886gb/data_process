@@ -1,0 +1,70 @@
+Load embeddings for all files
+Process clustering for all files on GPU 3
+聚类完成，用时： 41715.07632684708
+Clustering complete for all files, labels saved as outputs/SFT_all/all_dedup_eps0.1/all_files_labels_eps0.1.npy
+最终保留数据: 5777225
+Finished processing and deduplication for all files, output saved to outputs/SFT_all/all_dedup_eps0.1/all_files_dedup_eps0.1.jsonl
+数据总量: 7254452
+去掉完全相同prompt后的数据量:  5965674
+聚类后类别总数 5777225
+聚类去重数量 188449
+总去重量 1477227
+
+去重后总数据量: 7254452
+
+按source_prompt_id统计 (./data/SFT_all.json):
+data/SFT/opc-sft-stage1/largescale_diverse_instruct: 2513419
+data/SFT/opc-sft-stage1/filtered_infinity_instruct: 1027063
+data/SFT/AI-MO/NuminaMath-1: 896214
+data/SFT/allenai/tulu-3-sft-olmo-2-mixture-0225: 866137
+data/SFT/opc-sft-stage1/realuser_instruct: 675836
+data/SFT/KodCode/KodCode-V1_train: 484096
+data/SFT/opc-sft-stage2/package_instruct: 170942
+data/SFT/m-a-p/CodeFeedback-Filtered-Instruction: 156525
+data/SFT/allenai/tulu-3-sft-personas-math: 149959
+data/SFT/opc-sft-stage2/educational_instruct: 118277
+data/SFT/opc-sft-stage2/evol_instruct: 111182
+data/SFT/opc-sft-stage2/mceval_instruct: 35942
+data/SFT/allenai/tulu-3-sft-personas-code: 34998
+data/SFT/HuggingFaceH4/no_robots: 9499
+data/SFT/KodCode/KodCode-V1_use_with_caution: 3334
+data/SFT/GAIR/lima: 1029
+
+去重后总数据量: 5777225
+
+按source_prompt_id统计 (outputs/SFT_all/all_dedup_eps0.1/all_files_dedup_eps0.1.jsonl):
+data/SFT/opc-sft-stage1/largescale_diverse_instruct: 2401368
+data/SFT/AI-MO/NuminaMath-1: 833617
+data/SFT/allenai/tulu-3-sft-olmo-2-mixture-0225: 653533
+data/SFT/opc-sft-stage1/realuser_instruct: 626301
+data/SFT/KodCode/KodCode-V1_train: 482450
+data/SFT/opc-sft-stage1/filtered_infinity_instruct: 481701
+data/SFT/allenai/tulu-3-sft-personas-math: 89350
+data/SFT/opc-sft-stage2/educational_instruct: 76445
+data/SFT/opc-sft-stage2/evol_instruct: 39801
+data/SFT/opc-sft-stage2/mceval_instruct: 35921
+data/SFT/m-a-p/CodeFeedback-Filtered-Instruction: 23428
+data/SFT/opc-sft-stage2/package_instruct: 19625
+data/SFT/HuggingFaceH4/no_robots: 9494
+data/SFT/KodCode/KodCode-V1_use_with_caution: 3320
+data/SFT/GAIR/lima: 871
+
+原始数据与去重后数据的source_prompt_id对比:
+data/SFT/AI-MO/NuminaMath-1: 原始 896214, 去重后 833617, 差异 62597
+data/SFT/GAIR/lima: 原始 1029, 去重后 871, 差异 158
+data/SFT/HuggingFaceH4/no_robots: 原始 9499, 去重后 9494, 差异 5
+data/SFT/KodCode/KodCode-V1_train: 原始 484096, 去重后 482450, 差异 1646
+data/SFT/KodCode/KodCode-V1_use_with_caution: 原始 3334, 去重后 3320, 差异 14
+data/SFT/allenai/tulu-3-sft-olmo-2-mixture-0225: 原始 866137, 去重后 653533, 差异 212604
+data/SFT/allenai/tulu-3-sft-personas-code: 原始 34998, 去重后 0, 差异 34998
+data/SFT/allenai/tulu-3-sft-personas-math: 原始 149959, 去重后 89350, 差异 60609
+data/SFT/m-a-p/CodeFeedback-Filtered-Instruction: 原始 156525, 去重后 23428, 差异 133097
+data/SFT/opc-sft-stage1/filtered_infinity_instruct: 原始 1027063, 去重后 481701, 差异 545362
+data/SFT/opc-sft-stage1/largescale_diverse_instruct: 原始 2513419, 去重后 2401368, 差异 112051
+data/SFT/opc-sft-stage1/realuser_instruct: 原始 675836, 去重后 626301, 差异 49535
+data/SFT/opc-sft-stage2/educational_instruct: 原始 118277, 去重后 76445, 差异 41832
+data/SFT/opc-sft-stage2/evol_instruct: 原始 111182, 去重后 39801, 差异 71381
+data/SFT/opc-sft-stage2/mceval_instruct: 原始 35942, 去重后 35921, 差异 21
+data/SFT/opc-sft-stage2/package_instruct: 原始 170942, 去重后 19625, 差异 151317
+
+CSV统计结果已保存至: outputs/SFT_all/all_dedup_eps0.1/summary.csv

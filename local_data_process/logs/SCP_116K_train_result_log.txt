@@ -1,0 +1,336 @@
+Load data...:   0%|          | 0/610 [00:00<?, ?it/s]Load data...: 100%|██████████| 610/610 [00:00<00:00, 21417.24it/s]
+Start infra...
+已经推理9391条
+已经推理9392条
+已经推理9393条
+已经推理9394条
+已经推理9395条
+已经推理9396条
+已经推理9397条
+已经推理9398条
+已经推理9399条
+已经推理9400条
+已经推理9401条
+已经推理9402条
+已经推理9403条
+已经推理9404条
+已经推理9405条
+已经推理9406条
+已经推理9407条
+已经推理9408条
+已经推理9409条
+已经推理9410条
+已经推理9411条
+已经推理9412条
+已经推理9413条
+已经推理9414条
+已经推理9415条
+已经推理9416条
+已经推理9417条
+已经推理9418条
+已经推理9419条
+已经推理9420条
+已经推理9421条
+已经推理9422条
+已经推理9423条
+已经推理9424条
+已经推理9425条
+已经推理9426条
+已经推理9427条
+已经推理9428条
+已经推理9429条
+已经推理9430条
+已经推理9431条
+已经推理9432条
+已经推理9433条
+已经推理9434条
+已经推理9435条
+已经推理9436条
+已经推理9437条
+已经推理9438条
+已经推理9439条
+已经推理9440条
+已经推理9441条
+已经推理9442条
+已经推理9443条
+已经推理9444条
+已经推理9445条
+已经推理9446条
+已经推理9447条
+已经推理9448条
+已经推理9449条
+已经推理9450条
+已经推理9451条
+已经推理9452条
+已经推理9453条
+已经推理9454条
+已经推理9455条
+已经推理9456条
+已经推理9457条
+已经推理9458条
+已经推理9459条
+已经推理9460条
+已经推理9461条
+已经推理9462条
+已经推理9463条
+已经推理9464条
+已经推理9465条
+已经推理9466条
+已经推理9467条
+已经推理9468条
+已经推理9469条
+已经推理9470条
+已经推理9471条
+已经推理9472条
+已经推理9473条
+已经推理9474条
+已经推理9475条
+已经推理9476条
+已经推理9477条
+已经推理9478条
+已经推理9479条
+已经推理9480条
+已经推理9481条
+已经推理9482条
+已经推理9483条
+已经推理9484条
+已经推理9485条
+已经推理9486条
+已经推理9487条
+已经推理9488条
+已经推理9489条
+已经推理9490条
+已经推理9491条
+已经推理9492条
+已经推理9493条
+已经推理9494条
+已经推理9495条
+已经推理9496条
+已经推理9497条
+已经推理9498条
+已经推理9499条
+已经推理9500条
+已经推理9501条
+已经推理9502条
+已经推理9503条
+已经推理9504条
+已经推理9505条
+已经推理9506条
+已经推理9507条
+已经推理9508条
+已经推理9509条
+已经推理9510条
+已经推理9511条
+已经推理9512条
+已经推理9513条
+已经推理9514条
+已经推理9515条
+已经推理9516条
+已经推理9517条
+已经推理9518条
+已经推理9519条
+已经推理9520条
+已经推理9521条
+已经推理9522条
+已经推理9523条
+已经推理9524条
+已经推理9525条
+已经推理9526条
+已经推理9527条
+已经推理9528条
+已经推理9529条
+已经推理9530条
+已经推理9531条
+已经推理9532条
+已经推理9533条
+已经推理9534条
+已经推理9535条
+已经推理9536条
+已经推理9537条
+已经推理9538条
+已经推理9539条
+已经推理9540条
+已经推理9541条
+已经推理9542条
+已经推理9543条
+已经推理9544条
+已经推理9545条
+已经推理9546条
+已经推理9547条
+已经推理9548条
+已经推理9549条
+已经推理9550条
+已经推理9551条
+已经推理9552条
+已经推理9553条
+已经推理9554条
+已经推理9555条
+已经推理9556条
+已经推理9557条
+已经推理9558条
+已经推理9559条
+已经推理9560条
+已经推理9561条
+已经推理9562条
+已经推理9563条
+已经推理9564条
+已经推理9565条
+已经推理9566条
+已经推理9567条
+已经推理9568条
+已经推理9569条
+已经推理9570条
+已经推理9571条
+已经推理9572条
+已经推理9573条
+已经推理9574条
+已经推理9575条
+已经推理9576条
+已经推理9577条
+已经推理9578条
+已经推理9579条
+已经推理9580条
+已经推理9581条
+已经推理9582条
+已经推理9583条
+已经推理9584条
+已经推理9585条
+已经推理9586条
+已经推理9587条
+已经推理9588条
+{'type': 'error', 'error': {'details': None, 'type': 'overloaded_error', 'message': 'Overloaded'}}
+已经推理9589条
+已经推理9590条
+已经推理9591条
+已经推理9592条
+已经推理9593条
+已经推理9594条
+已经推理9595条
+已经推理9596条
+已经推理9597条
+已经推理9598条
+已经推理9599条
+已经推理9600条
+已经推理9601条
+已经推理9602条
+已经推理9603条
+已经推理9604条
+已经推理9605条
+已经推理9606条
+已经推理9607条
+已经推理9608条
+已经推理9609条
+已经推理9610条
+已经推理9611条
+已经推理9612条
+已经推理9613条
+已经推理9614条
+已经推理9615条
+已经推理9616条
+已经推理9617条
+已经推理9618条
+已经推理9619条
+已经推理9620条
+已经推理9621条
+已经推理9622条
+已经推理9623条
+已经推理9624条
+已经推理9625条
+已经推理9626条
+已经推理9627条
+已经推理9628条
+已经推理9629条
+已经推理9630条
+已经推理9631条
+已经推理9632条
+已经推理9633条
+已经推理9634条
+已经推理9635条
+已经推理9636条
+已经推理9637条
+已经推理9638条
+已经推理9639条
+已经推理9640条
+已经推理9641条
+已经推理9642条
+已经推理9643条
+已经推理9644条
+已经推理9645条
+已经推理9646条
+已经推理9647条
+已经推理9648条
+已经推理9649条
+已经推理9650条
+已经推理9651条
+已经推理9652条
+已经推理9653条
+已经推理9654条
+已经推理9655条
+已经推理9656条
+已经推理9657条
+已经推理9658条
+已经推理9659条
+已经推理9660条
+已经推理9661条
+已经推理9662条
+已经推理9663条
+已经推理9664条
+已经推理9665条
+已经推理9666条
+已经推理9667条
+已经推理9668条
+已经推理9669条
+已经推理9670条
+已经推理9671条
+已经推理9672条
+已经推理9673条
+已经推理9674条
+已经推理9675条
+已经推理9676条
+已经推理9677条
+已经推理9678条
+已经推理9679条
+已经推理9680条
+已经推理9681条
+已经推理9682条
+已经推理9683条
+已经推理9684条
+已经推理9685条
+已经推理9686条
+已经推理9687条
+已经推理9688条
+已经推理9689条
+已经推理9690条
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}}
+Traceback (most recent call last):
+  File "/Users/edy/Desktop/zt/zt_aixcoder/data/Cot_from_api.py", line 186, in <module>
+    main()
+    ~~~~^^
+  File "/Users/edy/Desktop/zt/zt_aixcoder/data/Cot_from_api.py", line 165, in main
+    thinking, response = choose_model(prompt)
+                         ~~~~~~~~~~~~^^^^^^^^
+  File "/Users/edy/Desktop/zt/zt_aixcoder/data/Cot_from_api.py", line 42, in choose_model
+    thinking, response = claude_api_cot(prompt)
+                         ~~~~~~~~~~~~~~^^^^^^^^
+  File "/Users/edy/Desktop/zt/zt_aixcoder/data/claude_api.py", line 49, in claude_api_cot
+    raise RuntimeError("All retry attempts failed due to API overload.")
+RuntimeError: All retry attempts failed due to API overload.
