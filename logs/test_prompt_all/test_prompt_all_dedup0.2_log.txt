@@ -1,1473 +1,0 @@
-开始统计文件行数...
-0it [00:00, ?it/s]11581it [00:00, 115764.57it/s]26271it [00:00, 134053.90it/s]53271it [00:00, 196106.51it/s]72883it [00:00, 156269.61it/s]89457it [00:00, 132011.33it/s]103645it [00:00, 121649.93it/s]116459it [00:00, 110556.61it/s]127976it [00:01, 102661.56it/s]138533it [00:01, 98332.41it/s] 148520it [00:01, 97391.38it/s]158544it [00:01, 98132.36it/s]168432it [00:01, 97855.81it/s]178267it [00:01, 96569.28it/s]187952it [00:01, 89418.80it/s]196985it [00:01, 88508.95it/s]205893it [00:01, 87474.77it/s]214675it [00:02, 86931.27it/s]223390it [00:02, 85646.35it/s]232080it [00:02, 86000.80it/s]240691it [00:02, 85874.70it/s]249286it [00:02, 85892.92it/s]257881it [00:02, 85708.92it/s]266456it [00:02, 85170.97it/s]274976it [00:02, 84835.74it/s]283465it [00:02, 84793.16it/s]292064it [00:02, 85136.51it/s]300579it [00:03, 82673.06it/s]309104it [00:03, 83382.80it/s]317918it [00:03, 84782.51it/s]327224it [00:03, 87216.90it/s]335957it [00:03, 86579.79it/s]344842it [00:03, 87244.60it/s]353573it [00:03, 85804.16it/s]362552it [00:03, 86974.21it/s]371258it [00:03, 86290.69it/s]379894it [00:03, 85371.99it/s]388833it [00:04, 86552.77it/s]397589it [00:04, 86847.57it/s]406655it [00:04, 87974.07it/s]415457it [00:04, 87421.03it/s]424533it [00:04, 88409.83it/s]434391it [00:04, 91368.54it/s]443532it [00:04, 89098.84it/s]452456it [00:04, 88662.36it/s]461332it [00:04, 88519.94it/s]470191it [00:04, 88192.08it/s]485380it [00:05, 107053.00it/s]505908it [00:05, 136245.18it/s]525592it [00:05, 154303.84it/s]544169it [00:05, 101376.33it/s]
-文件总行数: 544169
-读取数据:   0%|          | 0/544169 [00:00<?, ?it/s]读取数据:   1%|          | 5076/544169 [00:00<00:10, 50742.02it/s]读取数据:   2%|▏         | 10151/544169 [00:00<00:10, 48672.91it/s]读取数据:   3%|▎         | 15025/544169 [00:00<00:13, 39739.19it/s]读取数据:   4%|▎         | 20185/544169 [00:00<00:11, 43795.06it/s]读取数据:   5%|▍         | 26829/544169 [00:00<00:10, 51214.49it/s]读取数据:   6%|▋         | 34295/544169 [00:00<00:08, 58694.21it/s]读取数据:   8%|▊         | 41652/544169 [00:00<00:07, 63346.48it/s]读取数据:   9%|▉         | 48790/544169 [00:00<00:07, 65820.26it/s]读取数据:  10%|█         | 55468/544169 [00:01<00:21, 22778.41it/s]读取数据:  11%|█         | 60348/544169 [00:01<00:19, 25379.44it/s]读取数据:  12%|█▏        | 64934/544169 [00:01<00:18, 25430.10it/s]读取数据:  13%|█▎        | 68899/544169 [00:02<00:18, 25282.73it/s]读取数据:  13%|█▎        | 72413/544169 [00:02<00:18, 25338.68it/s]读取数据:  14%|█▍        | 75636/544169 [00:02<00:18, 25183.88it/s]读取数据:  14%|█▍        | 78631/544169 [00:02<00:18, 25205.21it/s]读取数据:  15%|█▍        | 81485/544169 [00:02<00:18, 25157.48it/s]读取数据:  15%|█▌        | 84233/544169 [00:02<00:18, 25052.66it/s]读取数据:  16%|█▌        | 86899/544169 [00:02<00:18, 24944.89it/s]读取数据:  16%|█▋        | 89504/544169 [00:02<00:18, 24502.38it/s]读取数据:  17%|█▋        | 92028/544169 [00:02<00:18, 24654.04it/s]读取数据:  17%|█▋        | 94547/544169 [00:03<00:18, 24545.98it/s]读取数据:  18%|█▊        | 97053/544169 [00:03<00:18, 24686.84it/s]读取数据:  18%|█▊        | 99549/544169 [00:03<00:17, 24721.42it/s]读取数据:  19%|█▉        | 102041/544169 [00:04<00:51, 8577.72it/s]读取数据:  19%|█▉        | 104529/544169 [00:04<00:41, 10611.43it/s]读取数据:  20%|█▉        | 107049/544169 [00:04<00:34, 12817.69it/s]读取数据:  20%|██        | 109237/544169 [00:04<00:30, 14426.38it/s]读取数据:  21%|██        | 111727/544169 [00:04<00:26, 16545.59it/s]读取数据:  21%|██        | 114386/544169 [00:04<00:22, 18796.47it/s]读取数据:  22%|██▏       | 117045/544169 [00:04<00:20, 20683.88it/s]读取数据:  22%|██▏       | 119749/544169 [00:04<00:19, 22316.64it/s]读取数据:  23%|██▎       | 122455/544169 [00:04<00:17, 23590.14it/s]读取数据:  23%|██▎       | 125045/544169 [00:04<00:17, 24118.15it/s]读取数据:  23%|██▎       | 127744/544169 [00:05<00:16, 24927.15it/s]读取数据:  24%|██▍       | 130379/544169 [00:05<00:16, 25335.92it/s]读取数据:  24%|██▍       | 133105/544169 [00:05<00:15, 25893.97it/s]读取数据:  25%|██▍       | 135815/544169 [00:05<00:15, 26243.98it/s]读取数据:  25%|██▌       | 138505/544169 [00:05<00:15, 26436.76it/s]读取数据:  26%|██▌       | 141250/544169 [00:05<00:15, 26735.61it/s]读取数据:  26%|██▋       | 143946/544169 [00:05<00:15, 26655.27it/s]读取数据:  27%|██▋       | 146648/544169 [00:05<00:14, 26761.80it/s]读取数据:  27%|██▋       | 149405/544169 [00:05<00:14, 27000.84it/s]读取数据:  28%|██▊       | 152113/544169 [00:06<00:43, 9003.10it/s] 读取数据:  28%|██▊       | 154824/544169 [00:06<00:34, 11256.27it/s]读取数据:  29%|██▉       | 157491/544169 [00:06<00:28, 13582.65it/s]读取数据:  29%|██▉       | 160196/544169 [00:06<00:24, 15970.91it/s]读取数据:  30%|██▉       | 162898/544169 [00:07<00:20, 18203.24it/s]读取数据:  30%|███       | 165560/544169 [00:07<00:18, 20088.40it/s]读取数据:  31%|███       | 168310/544169 [00:07<00:17, 21885.16it/s]读取数据:  31%|███▏      | 171064/544169 [00:07<00:15, 23338.14it/s]读取数据:  32%|███▏      | 173753/544169 [00:07<00:15, 24289.67it/s]读取数据:  32%|███▏      | 176423/544169 [00:07<00:14, 24842.63it/s]读取数据:  33%|███▎      | 179205/544169 [00:07<00:14, 25684.13it/s]读取数据:  33%|███▎      | 181974/544169 [00:07<00:13, 26258.99it/s]读取数据:  34%|███▍      | 184706/544169 [00:07<00:13, 26567.25it/s]读取数据:  34%|███▍      | 187467/544169 [00:07<00:13, 26870.58it/s]读取数据:  35%|███▍      | 190200/544169 [00:08<00:13, 26746.93it/s]读取数据:  35%|███▌      | 192907/544169 [00:08<00:13, 26309.96it/s]读取数据:  36%|███▌      | 195562/544169 [00:08<00:13, 26090.21it/s]读取数据:  36%|███▋      | 198188/544169 [00:08<00:13, 25967.60it/s]读取数据:  37%|███▋      | 200797/544169 [00:09<00:38, 9024.43it/s] 读取数据:  37%|███▋      | 203412/544169 [00:09<00:30, 11197.57it/s]读取数据:  38%|███▊      | 206046/544169 [00:09<00:25, 13520.58it/s]读取数据:  38%|███▊      | 208464/544169 [00:09<00:21, 15436.97it/s]读取数据:  39%|███▉      | 210937/544169 [00:09<00:19, 17332.13it/s]读取数据:  39%|███▉      | 213385/544169 [00:09<00:17, 18946.57it/s]读取数据:  40%|███▉      | 215881/544169 [00:09<00:16, 20412.43it/s]读取数据:  40%|████      | 218409/544169 [00:09<00:15, 21669.27it/s]读取数据:  41%|████      | 220958/544169 [00:09<00:14, 22698.50it/s]读取数据:  41%|████      | 223442/544169 [00:09<00:13, 23292.25it/s]读取数据:  42%|████▏     | 225925/544169 [00:10<00:13, 23630.47it/s]读取数据:  42%|████▏     | 228454/544169 [00:10<00:13, 24104.82it/s]读取数据:  42%|████▏     | 230969/544169 [00:10<00:12, 24407.12it/s]读取数据:  43%|████▎     | 233508/544169 [00:10<00:12, 24694.60it/s]读取数据:  43%|████▎     | 236018/544169 [00:10<00:12, 24756.39it/s]读取数据:  44%|████▍     | 238522/544169 [00:10<00:12, 24838.24it/s]读取数据:  44%|████▍     | 241026/544169 [00:10<00:12, 24716.18it/s]读取数据:  45%|████▍     | 243574/544169 [00:10<00:12, 24941.57it/s]读取数据:  45%|████▌     | 246118/544169 [00:10<00:11, 25088.23it/s]读取数据:  46%|████▌     | 248634/544169 [00:10<00:11, 25078.66it/s]读取数据:  46%|████▌     | 251147/544169 [00:11<00:33, 8826.06it/s] 读取数据:  47%|████▋     | 253697/544169 [00:11<00:26, 11001.00it/s]读取数据:  47%|████▋     | 256207/544169 [00:11<00:21, 13214.82it/s]读取数据:  48%|████▊     | 258818/544169 [00:11<00:18, 15577.79it/s]读取数据:  48%|████▊     | 261492/544169 [00:12<00:15, 17892.26it/s]读取数据:  49%|████▊     | 264111/544169 [00:12<00:14, 19787.56it/s]读取数据:  49%|████▉     | 266800/544169 [00:12<00:12, 21535.50it/s]读取数据:  50%|████▉     | 269476/544169 [00:12<00:11, 22893.34it/s]读取数据:  50%|█████     | 272202/544169 [00:12<00:11, 24075.00it/s]读取数据:  51%|█████     | 274830/544169 [00:12<00:11, 24089.57it/s]读取数据:  51%|█████     | 277488/544169 [00:12<00:10, 24786.06it/s]读取数据:  51%|█████▏    | 280213/544169 [00:12<00:10, 25487.28it/s]读取数据:  52%|█████▏    | 282845/544169 [00:12<00:10, 25414.11it/s]读取数据:  52%|█████▏    | 285445/544169 [00:13<00:10, 25354.96it/s]读取数据:  53%|█████▎    | 288021/544169 [00:13<00:10, 25286.16it/s]读取数据:  53%|█████▎    | 290578/544169 [00:13<00:10, 25191.94it/s]读取数据:  54%|█████▍    | 293169/544169 [00:13<00:09, 25400.54it/s]读取数据:  54%|█████▍    | 295772/544169 [00:13<00:09, 25584.29it/s]读取数据:  55%|█████▍    | 298341/544169 [00:13<00:09, 25435.21it/s]读取数据:  55%|█████▌    | 300892/544169 [00:14<00:28, 8483.41it/s] 读取数据:  56%|█████▌    | 303320/544169 [00:14<00:23, 10434.90it/s]读取数据:  56%|█████▌    | 305884/544169 [00:14<00:18, 12714.91it/s]读取数据:  57%|█████▋    | 308361/544169 [00:14<00:15, 14841.52it/s]读取数据:  57%|█████▋    | 310762/544169 [00:14<00:13, 16686.58it/s]读取数据:  58%|█████▊    | 313236/544169 [00:14<00:12, 18484.31it/s]读取数据:  58%|█████▊    | 315706/544169 [00:14<00:11, 19985.77it/s]读取数据:  58%|█████▊    | 318154/544169 [00:14<00:10, 21139.09it/s]读取数据:  59%|█████▉    | 320663/544169 [00:15<00:10, 22198.51it/s]读取数据:  59%|█████▉    | 323116/544169 [00:15<00:09, 22843.18it/s]读取数据:  60%|█████▉    | 325561/544169 [00:15<00:09, 23114.55it/s]读取数据:  60%|██████    | 328041/544169 [00:15<00:09, 23596.12it/s]读取数据:  61%|██████    | 330482/544169 [00:15<00:09, 23230.69it/s]读取数据:  61%|██████    | 332863/544169 [00:15<00:09, 23382.97it/s]读取数据:  62%|██████▏   | 335348/544169 [00:15<00:08, 23809.12it/s]读取数据:  62%|██████▏   | 337835/544169 [00:15<00:08, 24119.18it/s]读取数据:  63%|██████▎   | 340315/544169 [00:15<00:08, 24319.81it/s]读取数据:  63%|██████▎   | 342917/544169 [00:16<00:08, 24822.92it/s]读取数据:  64%|██████▎   | 345633/544169 [00:16<00:07, 25516.98it/s]读取数据:  64%|██████▍   | 348369/544169 [00:16<00:07, 26065.82it/s]读取数据:  64%|██████▍   | 350982/544169 [00:16<00:21, 8785.20it/s] 读取数据:  65%|██████▍   | 353399/544169 [00:17<00:17, 10719.05it/s]读取数据:  65%|██████▌   | 356157/544169 [00:17<00:14, 13286.18it/s]读取数据:  66%|██████▌   | 358876/544169 [00:17<00:11, 15769.55it/s]读取数据:  66%|██████▋   | 361577/544169 [00:17<00:10, 18054.43it/s]读取数据:  67%|██████▋   | 364262/544169 [00:17<00:08, 20033.08it/s]读取数据:  67%|██████▋   | 366956/544169 [00:17<00:08, 21712.49it/s]读取数据:  68%|██████▊   | 369658/544169 [00:17<00:07, 23079.40it/s]读取数据:  68%|██████▊   | 372342/544169 [00:17<00:07, 24090.91it/s]读取数据:  69%|██████▉   | 374992/544169 [00:17<00:06, 24759.48it/s]读取数据:  69%|██████▉   | 377685/544169 [00:17<00:06, 25370.98it/s]读取数据:  70%|██████▉   | 380345/544169 [00:18<00:06, 25626.21it/s]读取数据:  70%|███████   | 383139/544169 [00:18<00:06, 26298.69it/s]读取数据:  71%|███████   | 385873/544169 [00:18<00:05, 26603.03it/s]读取数据:  71%|███████▏  | 388578/544169 [00:18<00:05, 26103.95it/s]读取数据:  72%|███████▏  | 391222/544169 [00:18<00:05, 26108.33it/s]读取数据:  72%|███████▏  | 393870/544169 [00:18<00:05, 26216.09it/s]读取数据:  73%|███████▎  | 396593/544169 [00:18<00:05, 26510.37it/s]读取数据:  73%|███████▎  | 399321/544169 [00:18<00:05, 26736.28it/s]读取数据:  74%|███████▍  | 402004/544169 [00:19<00:17, 8286.72it/s] 读取数据:  74%|███████▍  | 404682/544169 [00:19<00:13, 10437.88it/s]读取数据:  75%|███████▍  | 407372/544169 [00:19<00:10, 12783.53it/s]读取数据:  75%|███████▌  | 410023/544169 [00:19<00:08, 15104.84it/s]读取数据:  76%|███████▌  | 412658/544169 [00:20<00:07, 17292.82it/s]读取数据:  76%|███████▋  | 415360/544169 [00:20<00:06, 19406.85it/s]读取数据:  77%|███████▋  | 418129/544169 [00:20<00:05, 21369.01it/s]读取数据:  77%|███████▋  | 420862/544169 [00:20<00:05, 22875.76it/s]读取数据:  78%|███████▊  | 423549/544169 [00:20<00:05, 23934.74it/s]读取数据:  78%|███████▊  | 426212/544169 [00:20<00:04, 24103.35it/s]读取数据:  79%|███████▉  | 428812/544169 [00:20<00:04, 24280.14it/s]读取数据:  79%|███████▉  | 431374/544169 [00:20<00:04, 24555.10it/s]读取数据:  80%|███████▉  | 433933/544169 [00:20<00:04, 24849.31it/s]读取数据:  80%|████████  | 436486/544169 [00:20<00:04, 24977.53it/s]读取数据:  81%|████████  | 439032/544169 [00:21<00:04, 25053.93it/s]读取数据:  81%|████████  | 441572/544169 [00:21<00:04, 25065.79it/s]读取数据:  82%|████████▏ | 444173/544169 [00:21<00:03, 25342.37it/s]读取数据:  82%|████████▏ | 446725/544169 [00:21<00:04, 24325.35it/s]读取数据:  83%|████████▎ | 449240/544169 [00:21<00:03, 24561.66it/s]读取数据:  83%|████████▎ | 451712/544169 [00:22<00:11, 8198.37it/s] 读取数据:  83%|████████▎ | 454175/544169 [00:22<00:08, 10202.40it/s]读取数据:  84%|████████▍ | 456694/544169 [00:22<00:07, 12424.63it/s]读取数据:  84%|████████▍ | 459229/544169 [00:22<00:05, 14684.81it/s]读取数据:  85%|████████▍ | 461790/544169 [00:22<00:04, 16868.04it/s]读取数据:  85%|████████▌ | 464315/544169 [00:22<00:04, 18728.40it/s]读取数据:  86%|████████▌ | 466840/544169 [00:22<00:03, 20298.12it/s]读取数据:  86%|████████▋ | 469346/544169 [00:22<00:03, 21515.63it/s]读取数据:  87%|████████▋ | 471868/544169 [00:23<00:03, 22505.92it/s]读取数据:  87%|████████▋ | 474799/544169 [00:23<00:02, 24387.81it/s]读取数据:  88%|████████▊ | 480391/544169 [00:23<00:01, 33317.74it/s]读取数据:  89%|████████▉ | 486159/544169 [00:23<00:01, 40331.31it/s]读取数据:  90%|█████████ | 491719/544169 [00:23<00:01, 44779.69it/s]读取数据:  91%|█████████▏| 497086/544169 [00:23<00:00, 47391.02it/s]读取数据:  91%|█████████▏| 497086/544169 [00:34<00:00, 47391.02it/s]读取数据:  92%|█████████▏| 500000/544169 [00:40<00:52, 842.07it/s]  读取数据:  94%|█████████▍| 511428/544169 [00:40<00:18, 1795.13it/s]读取数据:  96%|█████████▌| 523586/544169 [00:40<00:06, 3215.76it/s]读取数据:  98%|█████████▊| 535627/544169 [00:40<00:01, 5168.26it/s]读取数据: 100%|██████████| 544169/544169 [00:40<00:00, 13427.19it/s]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理第 1 批数据 (每批 50000 条)
-已处理 50000 条数据
-处理第 2 批数据 (每批 50000 条)
-已处理 100000 条数据
-处理第 3 批数据 (每批 50000 条)
-已处理 150000 条数据
-处理第 4 批数据 (每批 50000 条)
-已处理 200000 条数据
-处理第 5 批数据 (每批 50000 条)
-已处理 250000 条数据
-处理第 6 批数据 (每批 50000 条)
-已处理 300000 条数据
-处理第 7 批数据 (每批 50000 条)
-已处理 350000 条数据
-处理第 8 批数据 (每批 50000 条)
-已处理 400000 条数据
-处理第 9 批数据 (每批 50000 条)
-已处理 450000 条数据
-处理第 10 批数据 (每批 50000 条)
-已保存中间结果，当前处理了 500000 条记录
-已处理 500000 条数据
-处理第 11 批数据 (每批 50000 条)
-数据读取完成，共 544169 条原始记录，完全相同prompt去重后 538826 条
-开始为所有数据生成嵌入向量，使用GPU 4
-处理嵌入批次 0 到 10
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:14<02:29, 14.98s/it]processing embeddings:  18%|█▊        | 2/11 [00:24<01:45, 11.77s/it]processing embeddings:  27%|██▋       | 3/11 [00:35<01:29, 11.20s/it]processing embeddings:  36%|███▋      | 4/11 [00:40<01:01,  8.75s/it]processing embeddings:  45%|████▌     | 5/11 [00:45<00:45,  7.65s/it]processing embeddings:  55%|█████▍    | 6/11 [00:53<00:37,  7.57s/it]processing embeddings:  64%|██████▎   | 7/11 [01:02<00:32,  8.14s/it]processing embeddings:  73%|███████▎  | 8/11 [01:13<00:26,  8.93s/it]processing embeddings:  82%|████████▏ | 9/11 [01:24<00:19,  9.59s/it]processing embeddings:  91%|█████████ | 10/11 [01:34<00:09,  9.78s/it]processing embeddings:  91%|█████████ | 10/11 [01:34<00:09,  9.43s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 10 到 20
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:11<01:50, 11.06s/it]processing embeddings:  18%|█▊        | 2/11 [00:20<01:30, 10.05s/it]processing embeddings:  27%|██▋       | 3/11 [00:30<01:21, 10.16s/it]processing embeddings:  36%|███▋      | 4/11 [00:42<01:14, 10.64s/it]processing embeddings:  45%|████▌     | 5/11 [00:51<01:00, 10.06s/it]processing embeddings:  55%|█████▍    | 6/11 [00:56<00:42,  8.47s/it]processing embeddings:  64%|██████▎   | 7/11 [01:01<00:29,  7.41s/it]processing embeddings:  73%|███████▎  | 8/11 [01:08<00:21,  7.22s/it]processing embeddings:  82%|████████▏ | 9/11 [01:17<00:15,  7.65s/it]processing embeddings:  91%|█████████ | 10/11 [01:25<00:07,  7.93s/it]processing embeddings:  91%|█████████ | 10/11 [01:25<00:08,  8.57s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 20 到 30
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:27,  8.71s/it]processing embeddings:  18%|█▊        | 2/11 [00:17<01:17,  8.62s/it]processing embeddings:  27%|██▋       | 3/11 [00:26<01:12,  9.10s/it]processing embeddings:  36%|███▋      | 4/11 [00:35<01:03,  9.06s/it]processing embeddings:  45%|████▌     | 5/11 [00:43<00:50,  8.36s/it]processing embeddings:  55%|█████▍    | 6/11 [00:50<00:40,  8.18s/it]processing embeddings:  64%|██████▎   | 7/11 [00:58<00:32,  8.00s/it]processing embeddings:  73%|███████▎  | 8/11 [01:04<00:21,  7.28s/it]processing embeddings:  82%|████████▏ | 9/11 [01:08<00:12,  6.33s/it]processing embeddings:  91%|█████████ | 10/11 [01:12<00:05,  5.60s/it]processing embeddings:  91%|█████████ | 10/11 [01:12<00:07,  7.25s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 30 到 40
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:27,  8.76s/it]processing embeddings:  18%|█▊        | 2/11 [00:17<01:17,  8.64s/it]processing embeddings:  27%|██▋       | 3/11 [00:26<01:09,  8.74s/it]processing embeddings:  36%|███▋      | 4/11 [00:34<00:59,  8.44s/it]processing embeddings:  45%|████▌     | 5/11 [00:42<00:49,  8.33s/it]processing embeddings:  55%|█████▍    | 6/11 [00:51<00:42,  8.51s/it]processing embeddings:  64%|██████▎   | 7/11 [00:59<00:33,  8.43s/it]processing embeddings:  73%|███████▎  | 8/11 [01:07<00:24,  8.21s/it]processing embeddings:  82%|████████▏ | 9/11 [01:14<00:16,  8.02s/it]processing embeddings:  91%|█████████ | 10/11 [01:22<00:07,  7.91s/it]processing embeddings:  91%|█████████ | 10/11 [01:22<00:08,  8.25s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 40 到 50
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:04<00:47,  4.76s/it]processing embeddings:  18%|█▊        | 2/11 [00:10<00:50,  5.58s/it]processing embeddings:  27%|██▋       | 3/11 [00:19<00:56,  7.06s/it]processing embeddings:  36%|███▋      | 4/11 [00:29<00:55,  7.94s/it]processing embeddings:  45%|████▌     | 5/11 [00:38<00:50,  8.50s/it]processing embeddings:  55%|█████▍    | 6/11 [00:47<00:42,  8.53s/it]processing embeddings:  64%|██████▎   | 7/11 [00:55<00:33,  8.36s/it]processing embeddings:  73%|███████▎  | 8/11 [01:03<00:24,  8.31s/it]processing embeddings:  82%|████████▏ | 9/11 [01:11<00:16,  8.27s/it]processing embeddings:  91%|█████████ | 10/11 [01:18<00:07,  7.91s/it]processing embeddings:  91%|█████████ | 10/11 [01:18<00:07,  7.86s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 50 到 60
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:09<01:31,  9.17s/it]processing embeddings:  18%|█▊        | 2/11 [00:16<01:12,  8.01s/it]processing embeddings:  27%|██▋       | 3/11 [00:22<00:56,  7.10s/it]processing embeddings:  36%|███▋      | 4/11 [00:30<00:52,  7.48s/it]processing embeddings:  45%|████▌     | 5/11 [00:39<00:48,  8.01s/it]processing embeddings:  55%|█████▍    | 6/11 [00:48<00:41,  8.22s/it]processing embeddings:  64%|██████▎   | 7/11 [00:57<00:34,  8.64s/it]processing embeddings:  73%|███████▎  | 8/11 [01:06<00:26,  8.71s/it]processing embeddings:  82%|████████▏ | 9/11 [01:15<00:17,  8.76s/it]processing embeddings:  91%|█████████ | 10/11 [01:23<00:08,  8.72s/it]processing embeddings:  91%|█████████ | 10/11 [01:23<00:08,  8.40s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 60 到 70
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:09<01:32,  9.27s/it]processing embeddings:  18%|█▊        | 2/11 [00:19<01:26,  9.58s/it]processing embeddings:  27%|██▋       | 3/11 [00:27<01:11,  8.93s/it]processing embeddings:  36%|███▋      | 4/11 [00:32<00:53,  7.62s/it]processing embeddings:  45%|████▌     | 5/11 [00:39<00:43,  7.25s/it]processing embeddings:  55%|█████▍    | 6/11 [00:47<00:37,  7.60s/it]processing embeddings:  64%|██████▎   | 7/11 [00:56<00:32,  8.08s/it]processing embeddings:  73%|███████▎  | 8/11 [01:05<00:24,  8.31s/it]processing embeddings:  82%|████████▏ | 9/11 [01:13<00:16,  8.28s/it]processing embeddings:  91%|█████████ | 10/11 [01:22<00:08,  8.36s/it]processing embeddings:  91%|█████████ | 10/11 [01:22<00:08,  8.23s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 70 到 80
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:09<01:35,  9.59s/it]processing embeddings:  18%|█▊        | 2/11 [00:19<01:26,  9.63s/it]processing embeddings:  27%|██▋       | 3/11 [00:28<01:16,  9.54s/it]processing embeddings:  36%|███▋      | 4/11 [00:37<01:04,  9.28s/it]processing embeddings:  45%|████▌     | 5/11 [00:44<00:50,  8.47s/it]processing embeddings:  55%|█████▍    | 6/11 [00:49<00:36,  7.23s/it]processing embeddings:  64%|██████▎   | 7/11 [00:54<00:25,  6.47s/it]processing embeddings:  73%|███████▎  | 8/11 [01:01<00:20,  6.73s/it]processing embeddings:  82%|████████▏ | 9/11 [01:11<00:15,  7.65s/it]processing embeddings:  91%|█████████ | 10/11 [01:21<00:08,  8.47s/it]processing embeddings:  91%|█████████ | 10/11 [01:21<00:08,  8.16s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 80 到 90
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:09<01:37,  9.74s/it]processing embeddings:  18%|█▊        | 2/11 [00:18<01:22,  9.21s/it]processing embeddings:  27%|██▋       | 3/11 [00:27<01:12,  9.09s/it]processing embeddings:  36%|███▋      | 4/11 [00:35<01:00,  8.70s/it]processing embeddings:  45%|████▌     | 5/11 [00:43<00:50,  8.49s/it]processing embeddings:  55%|█████▍    | 6/11 [00:51<00:40,  8.09s/it]processing embeddings:  64%|██████▎   | 7/11 [00:58<00:31,  7.99s/it]processing embeddings:  73%|███████▎  | 8/11 [01:03<00:20,  6.98s/it]processing embeddings:  82%|████████▏ | 9/11 [01:07<00:12,  6.15s/it]processing embeddings:  91%|█████████ | 10/11 [01:12<00:05,  5.65s/it]processing embeddings:  91%|█████████ | 10/11 [01:12<00:07,  7.25s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 90 到 100
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:09<01:38,  9.82s/it]processing embeddings:  18%|█▊        | 2/11 [00:19<01:25,  9.50s/it]processing embeddings:  27%|██▋       | 3/11 [00:27<01:11,  9.00s/it]processing embeddings:  36%|███▋      | 4/11 [00:36<01:01,  8.84s/it]processing embeddings:  45%|████▌     | 5/11 [00:43<00:50,  8.39s/it]processing embeddings:  55%|█████▍    | 6/11 [00:51<00:40,  8.07s/it]processing embeddings:  64%|██████▎   | 7/11 [00:58<00:31,  7.98s/it]processing embeddings:  73%|███████▎  | 8/11 [01:06<00:23,  7.99s/it]processing embeddings:  82%|████████▏ | 9/11 [01:14<00:15,  7.98s/it]processing embeddings:  91%|█████████ | 10/11 [01:23<00:08,  8.25s/it]processing embeddings:  91%|█████████ | 10/11 [01:23<00:08,  8.38s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 100 到 110
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:04<00:48,  4.88s/it]processing embeddings:  18%|█▊        | 2/11 [00:13<01:05,  7.30s/it]processing embeddings:  27%|██▋       | 3/11 [00:22<01:02,  7.82s/it]processing embeddings:  36%|███▋      | 4/11 [00:30<00:57,  8.15s/it]processing embeddings:  45%|████▌     | 5/11 [00:38<00:48,  8.09s/it]processing embeddings:  55%|█████▍    | 6/11 [00:47<00:40,  8.12s/it]processing embeddings:  64%|██████▎   | 7/11 [00:55<00:32,  8.05s/it]processing embeddings:  73%|███████▎  | 8/11 [01:03<00:24,  8.05s/it]processing embeddings:  82%|████████▏ | 9/11 [01:12<00:16,  8.49s/it]processing embeddings:  91%|█████████ | 10/11 [01:20<00:08,  8.44s/it]processing embeddings:  91%|█████████ | 10/11 [01:20<00:08,  8.09s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 110 到 120
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:09<01:33,  9.30s/it]processing embeddings:  18%|█▊        | 2/11 [00:17<01:20,  8.92s/it]processing embeddings:  27%|██▋       | 3/11 [00:23<00:58,  7.25s/it]processing embeddings:  36%|███▋      | 4/11 [00:27<00:43,  6.20s/it]processing embeddings:  45%|████▌     | 5/11 [00:32<00:34,  5.79s/it]processing embeddings:  55%|█████▍    | 6/11 [00:40<00:31,  6.27s/it]processing embeddings:  64%|██████▎   | 7/11 [00:51<00:31,  7.81s/it]processing embeddings:  73%|███████▎  | 8/11 [00:58<00:23,  7.81s/it]processing embeddings:  82%|████████▏ | 9/11 [01:08<00:16,  8.46s/it]processing embeddings:  91%|█████████ | 10/11 [01:17<00:08,  8.46s/it]processing embeddings:  91%|█████████ | 10/11 [01:17<00:07,  7.72s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 120 到 130
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:09<01:32,  9.26s/it]processing embeddings:  18%|█▊        | 2/11 [00:18<01:21,  9.10s/it]processing embeddings:  27%|██▋       | 3/11 [00:26<01:09,  8.68s/it]processing embeddings:  36%|███▋      | 4/11 [00:34<00:59,  8.54s/it]processing embeddings:  45%|████▌     | 5/11 [00:43<00:51,  8.59s/it]processing embeddings:  55%|█████▍    | 6/11 [00:49<00:38,  7.73s/it]processing embeddings:  64%|██████▎   | 7/11 [00:54<00:26,  6.73s/it]processing embeddings:  73%|███████▎  | 8/11 [00:58<00:18,  6.09s/it]processing embeddings:  82%|████████▏ | 9/11 [01:07<00:13,  6.95s/it]processing embeddings:  91%|█████████ | 10/11 [01:18<00:08,  8.06s/it]processing embeddings:  91%|█████████ | 10/11 [01:18<00:07,  7.83s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 130 到 140
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:10<01:42, 10.23s/it]processing embeddings:  18%|█▊        | 2/11 [00:19<01:29,  9.96s/it]processing embeddings:  27%|██▋       | 3/11 [00:28<01:15,  9.47s/it]processing embeddings:  36%|███▋      | 4/11 [00:37<01:03,  9.02s/it]processing embeddings:  45%|████▌     | 5/11 [00:45<00:51,  8.62s/it]processing embeddings:  55%|█████▍    | 6/11 [00:53<00:42,  8.52s/it]processing embeddings:  64%|██████▎   | 7/11 [01:01<00:33,  8.29s/it]processing embeddings:  73%|███████▎  | 8/11 [01:10<00:25,  8.51s/it]processing embeddings:  82%|████████▏ | 9/11 [01:15<00:15,  7.59s/it]processing embeddings:  91%|█████████ | 10/11 [01:20<00:06,  6.62s/it]processing embeddings:  91%|█████████ | 10/11 [01:20<00:08,  8.03s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 140 到 150
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:25,  8.52s/it]processing embeddings:  18%|█▊        | 2/11 [00:17<01:18,  8.71s/it]processing embeddings:  27%|██▋       | 3/11 [00:26<01:09,  8.69s/it]processing embeddings:  36%|███▋      | 4/11 [00:34<00:59,  8.44s/it]processing embeddings:  45%|████▌     | 5/11 [00:41<00:48,  8.11s/it]processing embeddings:  55%|█████▍    | 6/11 [00:48<00:39,  7.82s/it]processing embeddings:  64%|██████▎   | 7/11 [00:57<00:32,  8.06s/it]processing embeddings:  73%|███████▎  | 8/11 [01:05<00:24,  8.01s/it]processing embeddings:  82%|████████▏ | 9/11 [01:13<00:16,  8.14s/it]processing embeddings:  91%|█████████ | 10/11 [01:20<00:07,  7.60s/it]processing embeddings:  91%|█████████ | 10/11 [01:20<00:08,  8.02s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 150 到 160
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:05<00:56,  5.67s/it]processing embeddings:  18%|█▊        | 2/11 [00:12<00:59,  6.64s/it]processing embeddings:  27%|██▋       | 3/11 [00:31<01:35, 11.89s/it]processing embeddings:  36%|███▋      | 4/11 [00:39<01:13, 10.45s/it]processing embeddings:  45%|████▌     | 5/11 [00:47<00:58,  9.68s/it]processing embeddings:  55%|█████▍    | 6/11 [01:07<01:05, 13.07s/it]processing embeddings:  64%|██████▎   | 7/11 [01:14<00:45, 11.30s/it]processing embeddings:  73%|███████▎  | 8/11 [01:35<00:42, 14.15s/it]processing embeddings:  82%|████████▏ | 9/11 [01:39<00:22, 11.18s/it]processing embeddings:  91%|█████████ | 10/11 [01:44<00:09,  9.12s/it]processing embeddings:  91%|█████████ | 10/11 [01:57<00:11, 11.76s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 160 到 170
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:29,  8.93s/it]processing embeddings:  18%|█▊        | 2/11 [00:26<02:07, 14.20s/it]processing embeddings:  27%|██▋       | 3/11 [00:35<01:35, 11.89s/it]processing embeddings:  36%|███▋      | 4/11 [00:44<01:14, 10.70s/it]processing embeddings:  45%|████▌     | 5/11 [00:51<00:56,  9.41s/it]processing embeddings:  55%|█████▍    | 6/11 [00:56<00:38,  7.80s/it]processing embeddings:  64%|██████▎   | 7/11 [01:01<00:26,  6.71s/it]processing embeddings:  73%|███████▎  | 8/11 [01:05<00:18,  6.06s/it]processing embeddings:  82%|████████▏ | 9/11 [01:12<00:12,  6.42s/it]processing embeddings:  91%|█████████ | 10/11 [01:22<00:07,  7.45s/it]processing embeddings:  91%|█████████ | 10/11 [01:22<00:08,  8.27s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 170 到 180
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:07<01:19,  7.94s/it]processing embeddings:  18%|█▊        | 2/11 [00:16<01:15,  8.38s/it]processing embeddings:  27%|██▋       | 3/11 [00:23<01:00,  7.58s/it]processing embeddings:  36%|███▋      | 4/11 [00:30<00:51,  7.40s/it]processing embeddings:  45%|████▌     | 5/11 [00:37<00:44,  7.42s/it]processing embeddings:  55%|█████▍    | 6/11 [00:45<00:37,  7.41s/it]processing embeddings:  64%|██████▎   | 7/11 [00:52<00:28,  7.24s/it]processing embeddings:  73%|███████▎  | 8/11 [01:04<00:26,  8.83s/it]processing embeddings:  82%|████████▏ | 9/11 [01:15<00:18,  9.45s/it]processing embeddings:  91%|█████████ | 10/11 [01:24<00:09,  9.53s/it]processing embeddings:  91%|█████████ | 10/11 [01:24<00:08,  8.49s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 180 到 190
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:05<00:57,  5.71s/it]processing embeddings:  18%|█▊        | 2/11 [00:11<00:52,  5.85s/it]processing embeddings:  27%|██▋       | 3/11 [00:24<01:11,  8.92s/it]processing embeddings:  36%|███▋      | 4/11 [00:35<01:08,  9.76s/it]processing embeddings:  45%|████▌     | 5/11 [00:46<01:01, 10.30s/it]processing embeddings:  55%|█████▍    | 6/11 [00:59<00:55, 11.07s/it]processing embeddings:  64%|██████▎   | 7/11 [01:10<00:45, 11.30s/it]processing embeddings:  73%|███████▎  | 8/11 [01:23<00:35, 11.70s/it]processing embeddings:  82%|████████▏ | 9/11 [01:36<00:24, 12.18s/it]processing embeddings:  91%|█████████ | 10/11 [01:47<00:11, 11.69s/it]processing embeddings:  91%|█████████ | 10/11 [01:47<00:10, 10.73s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 190 到 200
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:10<01:41, 10.20s/it]processing embeddings:  18%|█▊        | 2/11 [00:19<01:25,  9.53s/it]processing embeddings:  27%|██▋       | 3/11 [00:27<01:11,  8.92s/it]processing embeddings:  36%|███▋      | 4/11 [00:35<01:00,  8.67s/it]processing embeddings:  45%|████▌     | 5/11 [00:44<00:51,  8.55s/it]processing embeddings:  55%|█████▍    | 6/11 [00:49<00:37,  7.41s/it]processing embeddings:  64%|██████▎   | 7/11 [00:53<00:26,  6.52s/it]processing embeddings:  73%|███████▎  | 8/11 [00:58<00:17,  5.92s/it]processing embeddings:  82%|████████▏ | 9/11 [01:05<00:12,  6.19s/it]processing embeddings:  91%|█████████ | 10/11 [01:13<00:06,  6.72s/it]processing embeddings:  91%|█████████ | 10/11 [01:13<00:07,  7.33s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 200 到 210
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:21,  8.20s/it]processing embeddings:  18%|█▊        | 2/11 [00:16<01:16,  8.48s/it]processing embeddings:  27%|██▋       | 3/11 [00:24<01:05,  8.15s/it]processing embeddings:  36%|███▋      | 4/11 [00:32<00:56,  8.04s/it]processing embeddings:  45%|████▌     | 5/11 [00:40<00:48,  8.05s/it]processing embeddings:  55%|█████▍    | 6/11 [00:48<00:40,  8.15s/it]processing embeddings:  64%|██████▎   | 7/11 [00:56<00:32,  8.02s/it]processing embeddings:  73%|███████▎  | 8/11 [01:04<00:23,  7.90s/it]processing embeddings:  82%|████████▏ | 9/11 [01:12<00:15,  7.88s/it]processing embeddings:  91%|█████████ | 10/11 [01:19<00:07,  7.58s/it]processing embeddings:  91%|█████████ | 10/11 [01:19<00:07,  7.91s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 210 到 220
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:04<00:49,  4.99s/it]processing embeddings:  18%|█▊        | 2/11 [00:13<01:02,  6.93s/it]processing embeddings:  27%|██▋       | 3/11 [00:21<00:58,  7.30s/it]processing embeddings:  36%|███▋      | 4/11 [00:29<00:53,  7.71s/it]processing embeddings:  45%|████▌     | 5/11 [00:37<00:47,  7.88s/it]processing embeddings:  55%|█████▍    | 6/11 [00:44<00:38,  7.71s/it]processing embeddings:  64%|██████▎   | 7/11 [00:51<00:29,  7.42s/it]processing embeddings:  73%|███████▎  | 8/11 [01:00<00:23,  7.75s/it]processing embeddings:  82%|████████▏ | 9/11 [01:08<00:15,  7.80s/it]processing embeddings:  91%|█████████ | 10/11 [01:16<00:08,  8.02s/it]processing embeddings:  91%|█████████ | 10/11 [01:16<00:07,  7.66s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 220 到 230
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:09<01:34,  9.49s/it]processing embeddings:  18%|█▊        | 2/11 [00:18<01:22,  9.19s/it]processing embeddings:  27%|██▋       | 3/11 [00:23<00:58,  7.34s/it]processing embeddings:  36%|███▋      | 4/11 [00:28<00:43,  6.21s/it]processing embeddings:  45%|████▌     | 5/11 [00:34<00:37,  6.19s/it]processing embeddings:  55%|█████▍    | 6/11 [00:42<00:34,  6.93s/it]processing embeddings:  64%|██████▎   | 7/11 [00:51<00:29,  7.49s/it]processing embeddings:  73%|███████▎  | 8/11 [00:59<00:23,  7.84s/it]processing embeddings:  82%|████████▏ | 9/11 [01:06<00:15,  7.55s/it]processing embeddings:  91%|█████████ | 10/11 [01:15<00:07,  7.85s/it]processing embeddings:  91%|█████████ | 10/11 [01:15<00:07,  7.53s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 230 到 240
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:09<01:38,  9.86s/it]processing embeddings:  18%|█▊        | 2/11 [00:18<01:20,  8.99s/it]processing embeddings:  27%|██▋       | 3/11 [00:26<01:07,  8.47s/it]processing embeddings:  36%|███▋      | 4/11 [00:34<00:58,  8.34s/it]processing embeddings:  45%|████▌     | 5/11 [00:42<00:49,  8.26s/it]processing embeddings:  55%|█████▍    | 6/11 [00:47<00:35,  7.08s/it]processing embeddings:  64%|██████▎   | 7/11 [00:51<00:24,  6.24s/it]processing embeddings:  73%|███████▎  | 8/11 [00:56<00:17,  5.94s/it]processing embeddings:  82%|████████▏ | 9/11 [01:03<00:12,  6.07s/it]processing embeddings:  91%|█████████ | 10/11 [01:11<00:06,  6.62s/it]processing embeddings:  91%|█████████ | 10/11 [01:11<00:07,  7.12s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 240 到 250
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:07<01:18,  7.81s/it]processing embeddings:  18%|█▊        | 2/11 [00:15<01:10,  7.83s/it]processing embeddings:  27%|██▋       | 3/11 [00:23<01:01,  7.69s/it]processing embeddings:  36%|███▋      | 4/11 [00:31<00:54,  7.84s/it]processing embeddings:  45%|████▌     | 5/11 [00:40<00:49,  8.26s/it]processing embeddings:  55%|█████▍    | 6/11 [00:48<00:42,  8.40s/it]processing embeddings:  64%|██████▎   | 7/11 [00:56<00:33,  8.28s/it]processing embeddings:  73%|███████▎  | 8/11 [01:04<00:24,  8.01s/it]processing embeddings:  82%|████████▏ | 9/11 [01:09<00:14,  7.08s/it]processing embeddings:  91%|█████████ | 10/11 [01:13<00:06,  6.31s/it]processing embeddings:  91%|█████████ | 10/11 [01:14<00:07,  7.40s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 250 到 260
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:07<01:12,  7.24s/it]processing embeddings:  18%|█▊        | 2/11 [00:15<01:08,  7.62s/it]processing embeddings:  27%|██▋       | 3/11 [00:23<01:03,  7.91s/it]processing embeddings:  36%|███▋      | 4/11 [00:30<00:54,  7.79s/it]processing embeddings:  45%|████▌     | 5/11 [00:39<00:48,  8.03s/it]processing embeddings:  55%|█████▍    | 6/11 [00:46<00:38,  7.79s/it]processing embeddings:  64%|██████▎   | 7/11 [00:54<00:31,  7.86s/it]processing embeddings:  73%|███████▎  | 8/11 [01:02<00:23,  7.86s/it]processing embeddings:  82%|████████▏ | 9/11 [01:10<00:15,  7.96s/it]processing embeddings:  91%|█████████ | 10/11 [01:18<00:07,  7.93s/it]processing embeddings:  91%|█████████ | 10/11 [01:18<00:07,  7.87s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 260 到 270
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:05<00:53,  5.32s/it]processing embeddings:  18%|█▊        | 2/11 [00:10<00:46,  5.22s/it]processing embeddings:  27%|██▋       | 3/11 [00:15<00:42,  5.31s/it]processing embeddings:  36%|███▋      | 4/11 [00:23<00:43,  6.23s/it]processing embeddings:  45%|████▌     | 5/11 [00:31<00:40,  6.68s/it]processing embeddings:  55%|█████▍    | 6/11 [00:38<00:35,  7.11s/it]processing embeddings:  64%|██████▎   | 7/11 [00:46<00:29,  7.29s/it]processing embeddings:  73%|███████▎  | 8/11 [00:54<00:22,  7.39s/it]processing embeddings:  82%|████████▏ | 9/11 [01:01<00:14,  7.49s/it]processing embeddings:  91%|█████████ | 10/11 [01:09<00:07,  7.66s/it]processing embeddings:  91%|█████████ | 10/11 [01:09<00:06,  7.00s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 270 到 280
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:26,  8.63s/it]processing embeddings:  18%|█▊        | 2/11 [00:16<01:13,  8.15s/it]processing embeddings:  27%|██▋       | 3/11 [00:22<00:57,  7.20s/it]processing embeddings:  36%|███▋      | 4/11 [00:27<00:44,  6.36s/it]processing embeddings:  45%|████▌     | 5/11 [00:32<00:35,  5.83s/it]processing embeddings:  55%|█████▍    | 6/11 [00:37<00:28,  5.61s/it]processing embeddings:  64%|██████▎   | 7/11 [00:44<00:23,  5.90s/it]processing embeddings:  73%|███████▎  | 8/11 [00:51<00:19,  6.50s/it]processing embeddings:  82%|████████▏ | 9/11 [00:59<00:13,  6.97s/it]processing embeddings:  91%|█████████ | 10/11 [01:07<00:07,  7.00s/it]processing embeddings:  91%|█████████ | 10/11 [01:07<00:06,  6.70s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 280 到 290
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:20,  8.05s/it]processing embeddings:  18%|█▊        | 2/11 [00:16<01:13,  8.12s/it]processing embeddings:  27%|██▋       | 3/11 [00:24<01:04,  8.09s/it]processing embeddings:  36%|███▋      | 4/11 [00:31<00:55,  7.92s/it]processing embeddings:  45%|████▌     | 5/11 [00:39<00:47,  7.95s/it]processing embeddings:  55%|█████▍    | 6/11 [00:47<00:39,  7.83s/it]processing embeddings:  64%|██████▎   | 7/11 [00:52<00:27,  6.78s/it]processing embeddings:  73%|███████▎  | 8/11 [00:56<00:18,  6.05s/it]processing embeddings:  82%|████████▏ | 9/11 [01:02<00:12,  6.11s/it]processing embeddings:  91%|█████████ | 10/11 [01:10<00:06,  6.45s/it]processing embeddings:  91%|█████████ | 10/11 [01:10<00:07,  7.01s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 290 到 300
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:07<01:18,  7.85s/it]processing embeddings:  18%|█▊        | 2/11 [00:16<01:12,  8.07s/it]processing embeddings:  27%|██▋       | 3/11 [00:23<01:01,  7.70s/it]processing embeddings:  36%|███▋      | 4/11 [00:30<00:53,  7.62s/it]processing embeddings:  45%|████▌     | 5/11 [00:38<00:44,  7.48s/it]processing embeddings:  55%|█████▍    | 6/11 [00:46<00:38,  7.66s/it]processing embeddings:  64%|██████▎   | 7/11 [00:54<00:31,  7.89s/it]processing embeddings:  73%|███████▎  | 8/11 [01:02<00:23,  7.92s/it]processing embeddings:  82%|████████▏ | 9/11 [01:10<00:15,  7.86s/it]processing embeddings:  91%|█████████ | 10/11 [01:16<00:07,  7.24s/it]processing embeddings:  91%|█████████ | 10/11 [01:16<00:07,  7.60s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 300 到 310
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:06<01:01,  6.12s/it]processing embeddings:  18%|█▊        | 2/11 [00:13<00:59,  6.60s/it]processing embeddings:  27%|██▋       | 3/11 [00:21<00:58,  7.28s/it]processing embeddings:  36%|███▋      | 4/11 [00:28<00:51,  7.31s/it]processing embeddings:  45%|████▌     | 5/11 [00:36<00:44,  7.46s/it]processing embeddings:  55%|█████▍    | 6/11 [00:43<00:36,  7.38s/it]processing embeddings:  64%|██████▎   | 7/11 [00:50<00:29,  7.41s/it]processing embeddings:  73%|███████▎  | 8/11 [00:58<00:21,  7.32s/it]processing embeddings:  82%|████████▏ | 9/11 [01:05<00:14,  7.40s/it]processing embeddings:  91%|█████████ | 10/11 [01:12<00:07,  7.39s/it]processing embeddings:  91%|█████████ | 10/11 [01:14<00:07,  7.41s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 310 到 320
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:21,  8.13s/it]processing embeddings:  18%|█▊        | 2/11 [00:16<01:12,  8.02s/it]processing embeddings:  27%|██▋       | 3/11 [00:21<00:53,  6.64s/it]processing embeddings:  36%|███▋      | 4/11 [00:26<00:42,  6.04s/it]processing embeddings:  45%|████▌     | 5/11 [00:30<00:32,  5.41s/it]processing embeddings:  55%|█████▍    | 6/11 [00:37<00:29,  5.87s/it]processing embeddings:  64%|██████▎   | 7/11 [00:45<00:26,  6.57s/it]processing embeddings:  73%|███████▎  | 8/11 [00:53<00:20,  6.99s/it]processing embeddings:  82%|████████▏ | 9/11 [01:01<00:14,  7.44s/it]processing embeddings:  91%|█████████ | 10/11 [01:09<00:07,  7.61s/it]processing embeddings:  91%|█████████ | 10/11 [01:09<00:06,  6.96s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 320 到 330
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:24,  8.42s/it]processing embeddings:  18%|█▊        | 2/11 [00:17<01:17,  8.57s/it]processing embeddings:  27%|██▋       | 3/11 [00:25<01:09,  8.70s/it]processing embeddings:  36%|███▋      | 4/11 [00:34<00:59,  8.53s/it]processing embeddings:  45%|████▌     | 5/11 [00:42<00:51,  8.55s/it]processing embeddings:  55%|█████▍    | 6/11 [00:49<00:39,  7.85s/it]processing embeddings:  64%|██████▎   | 7/11 [00:54<00:27,  6.88s/it]processing embeddings:  73%|███████▎  | 8/11 [01:00<00:19,  6.59s/it]processing embeddings:  82%|████████▏ | 9/11 [01:05<00:12,  6.29s/it]processing embeddings:  91%|█████████ | 10/11 [01:13<00:06,  6.67s/it]processing embeddings:  91%|█████████ | 10/11 [01:13<00:07,  7.33s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 330 到 340
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:28,  8.85s/it]processing embeddings:  18%|█▊        | 2/11 [00:17<01:18,  8.67s/it]processing embeddings:  27%|██▋       | 3/11 [00:26<01:09,  8.69s/it]processing embeddings:  36%|███▋      | 4/11 [00:33<00:56,  8.06s/it]processing embeddings:  45%|████▌     | 5/11 [00:42<00:51,  8.53s/it]processing embeddings:  55%|█████▍    | 6/11 [00:51<00:43,  8.65s/it]processing embeddings:  64%|██████▎   | 7/11 [01:00<00:34,  8.73s/it]processing embeddings:  73%|███████▎  | 8/11 [01:09<00:27,  9.02s/it]processing embeddings:  82%|████████▏ | 9/11 [01:16<00:16,  8.28s/it]processing embeddings:  91%|█████████ | 10/11 [01:21<00:07,  7.20s/it]processing embeddings:  91%|█████████ | 10/11 [01:21<00:08,  8.14s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 340 到 350
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:24,  8.49s/it]processing embeddings:  18%|█▊        | 2/11 [00:17<01:17,  8.60s/it]processing embeddings:  27%|██▋       | 3/11 [00:25<01:07,  8.50s/it]processing embeddings:  36%|███▋      | 4/11 [00:34<01:00,  8.58s/it]processing embeddings:  45%|████▌     | 5/11 [00:43<00:53,  8.85s/it]processing embeddings:  55%|█████▍    | 6/11 [00:51<00:43,  8.68s/it]processing embeddings:  64%|██████▎   | 7/11 [01:00<00:34,  8.59s/it]processing embeddings:  73%|███████▎  | 8/11 [01:08<00:25,  8.39s/it]processing embeddings:  82%|████████▏ | 9/11 [01:16<00:16,  8.35s/it]processing embeddings:  91%|█████████ | 10/11 [01:26<00:08,  8.92s/it]processing embeddings:  91%|█████████ | 10/11 [01:26<00:08,  8.68s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 350 到 360
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:09<01:32,  9.28s/it]processing embeddings:  18%|█▊        | 2/11 [00:15<01:05,  7.26s/it]processing embeddings:  27%|██▋       | 3/11 [00:20<00:51,  6.50s/it]processing embeddings:  36%|███▋      | 4/11 [00:28<00:47,  6.82s/it]processing embeddings:  45%|████▌     | 5/11 [00:38<00:48,  8.00s/it]processing embeddings:  55%|█████▍    | 6/11 [00:47<00:41,  8.34s/it]processing embeddings:  64%|██████▎   | 7/11 [00:56<00:34,  8.67s/it]processing embeddings:  73%|███████▎  | 8/11 [01:04<00:25,  8.44s/it]processing embeddings:  82%|████████▏ | 9/11 [01:14<00:17,  8.99s/it]processing embeddings:  91%|█████████ | 10/11 [01:26<00:09,  9.79s/it]processing embeddings:  91%|█████████ | 10/11 [01:26<00:08,  8.62s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 360 到 370
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:12<02:05, 12.60s/it]processing embeddings:  18%|█▊        | 2/11 [00:25<01:55, 12.81s/it]processing embeddings:  27%|██▋       | 3/11 [00:36<01:34, 11.85s/it]processing embeddings:  36%|███▋      | 4/11 [00:46<01:17, 11.14s/it]processing embeddings:  45%|████▌     | 5/11 [00:59<01:10, 11.74s/it]processing embeddings:  55%|█████▍    | 6/11 [01:09<00:56, 11.32s/it]processing embeddings:  64%|██████▎   | 7/11 [01:20<00:44, 11.21s/it]processing embeddings:  73%|███████▎  | 8/11 [01:25<00:27,  9.06s/it]processing embeddings:  82%|████████▏ | 9/11 [01:29<00:15,  7.70s/it]processing embeddings:  91%|█████████ | 10/11 [01:34<00:06,  6.77s/it]processing embeddings:  91%|█████████ | 10/11 [01:34<00:09,  9.45s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 370 到 380
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:13<02:14, 13.42s/it]processing embeddings:  18%|█▊        | 2/11 [00:25<01:55, 12.81s/it]processing embeddings:  27%|██▋       | 3/11 [00:37<01:36, 12.08s/it]processing embeddings:  36%|███▋      | 4/11 [00:49<01:25, 12.20s/it]processing embeddings:  45%|████▌     | 5/11 [01:01<01:13, 12.23s/it]processing embeddings:  55%|█████▍    | 6/11 [01:12<00:58, 11.80s/it]processing embeddings:  64%|██████▎   | 7/11 [01:24<00:47, 11.94s/it]processing embeddings:  73%|███████▎  | 8/11 [01:36<00:35, 11.72s/it]processing embeddings:  82%|████████▏ | 9/11 [01:46<00:22, 11.31s/it]processing embeddings:  91%|█████████ | 10/11 [02:01<00:12, 12.30s/it]processing embeddings:  91%|█████████ | 10/11 [02:01<00:12, 12.11s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 380 到 390
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:05<00:59,  6.00s/it]processing embeddings:  18%|█▊        | 2/11 [00:14<01:07,  7.54s/it]processing embeddings:  27%|██▋       | 3/11 [00:29<01:26, 10.87s/it]processing embeddings:  36%|███▋      | 4/11 [00:42<01:21, 11.60s/it]processing embeddings:  45%|████▌     | 5/11 [00:51<01:04, 10.73s/it]processing embeddings:  55%|█████▍    | 6/11 [00:59<00:49,  9.83s/it]processing embeddings:  64%|██████▎   | 7/11 [01:08<00:38,  9.71s/it]processing embeddings:  73%|███████▎  | 8/11 [01:17<00:28,  9.51s/it]processing embeddings:  82%|████████▏ | 9/11 [01:27<00:18,  9.37s/it]processing embeddings:  91%|█████████ | 10/11 [01:35<00:09,  9.12s/it]processing embeddings:  91%|█████████ | 10/11 [01:35<00:09,  9.56s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 390 到 400
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:09<01:30,  9.09s/it]processing embeddings:  18%|█▊        | 2/11 [00:18<01:22,  9.20s/it]processing embeddings:  27%|██▋       | 3/11 [00:25<01:05,  8.24s/it]processing embeddings:  36%|███▋      | 4/11 [00:29<00:46,  6.65s/it]processing embeddings:  45%|████▌     | 5/11 [00:34<00:36,  6.06s/it]processing embeddings:  55%|█████▍    | 6/11 [00:42<00:33,  6.63s/it]processing embeddings:  64%|██████▎   | 7/11 [00:51<00:29,  7.40s/it]processing embeddings:  73%|███████▎  | 8/11 [00:59<00:23,  7.74s/it]processing embeddings:  82%|████████▏ | 9/11 [01:08<00:15,  7.97s/it]processing embeddings:  91%|█████████ | 10/11 [01:17<00:08,  8.21s/it]processing embeddings:  91%|█████████ | 10/11 [01:17<00:07,  7.71s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 400 到 410
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:09<01:32,  9.22s/it]processing embeddings:  18%|█▊        | 2/11 [00:17<01:20,  8.92s/it]processing embeddings:  27%|██▋       | 3/11 [00:28<01:16,  9.51s/it]processing embeddings:  36%|███▋      | 4/11 [00:38<01:07,  9.66s/it]processing embeddings:  45%|████▌     | 5/11 [00:47<00:56,  9.50s/it]processing embeddings:  55%|█████▍    | 6/11 [00:55<00:46,  9.21s/it]processing embeddings:  64%|██████▎   | 7/11 [01:02<00:33,  8.38s/it]processing embeddings:  73%|███████▎  | 8/11 [01:09<00:24,  8.05s/it]processing embeddings:  82%|████████▏ | 9/11 [01:19<00:16,  8.40s/it]processing embeddings:  91%|█████████ | 10/11 [01:27<00:08,  8.54s/it]processing embeddings:  91%|█████████ | 10/11 [01:27<00:08,  8.80s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 410 到 420
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:29,  9.00s/it]processing embeddings:  18%|█▊        | 2/11 [00:17<01:19,  8.88s/it]processing embeddings:  27%|██▋       | 3/11 [00:27<01:12,  9.03s/it]processing embeddings:  36%|███▋      | 4/11 [00:35<01:01,  8.72s/it]processing embeddings:  45%|████▌     | 5/11 [00:43<00:51,  8.55s/it]processing embeddings:  55%|█████▍    | 6/11 [00:51<00:42,  8.42s/it]processing embeddings:  64%|██████▎   | 7/11 [00:59<00:33,  8.28s/it]processing embeddings:  73%|███████▎  | 8/11 [01:06<00:23,  7.93s/it]processing embeddings:  82%|████████▏ | 9/11 [01:14<00:15,  7.79s/it]processing embeddings:  91%|█████████ | 10/11 [01:21<00:07,  7.49s/it]processing embeddings:  91%|█████████ | 10/11 [01:21<00:08,  8.12s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 420 到 430
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:09<01:30,  9.03s/it]processing embeddings:  18%|█▊        | 2/11 [00:19<01:29,  9.93s/it]processing embeddings:  27%|██▋       | 3/11 [00:30<01:24, 10.51s/it]processing embeddings:  36%|███▋      | 4/11 [00:43<01:20, 11.44s/it]processing embeddings:  45%|████▌     | 5/11 [00:53<01:05, 10.92s/it]processing embeddings:  55%|█████▍    | 6/11 [01:02<00:51, 10.34s/it]processing embeddings:  64%|██████▎   | 7/11 [01:11<00:39,  9.83s/it]processing embeddings:  73%|███████▎  | 8/11 [01:20<00:28,  9.40s/it]processing embeddings:  82%|████████▏ | 9/11 [01:28<00:18,  9.11s/it]processing embeddings:  91%|█████████ | 10/11 [01:37<00:08,  8.97s/it]processing embeddings:  91%|█████████ | 10/11 [01:37<00:09,  9.73s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 430 到 440
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:06<01:01,  6.14s/it]processing embeddings:  18%|█▊        | 2/11 [00:12<00:55,  6.14s/it]processing embeddings:  27%|██▋       | 3/11 [00:18<00:48,  6.11s/it]processing embeddings:  36%|███▋      | 4/11 [00:25<00:46,  6.61s/it]processing embeddings:  45%|████▌     | 5/11 [00:34<00:44,  7.33s/it]processing embeddings:  55%|█████▍    | 6/11 [00:43<00:39,  7.86s/it]processing embeddings:  64%|██████▎   | 7/11 [00:52<00:33,  8.26s/it]processing embeddings:  73%|███████▎  | 8/11 [01:01<00:25,  8.62s/it]processing embeddings:  82%|████████▏ | 9/11 [01:10<00:17,  8.53s/it]processing embeddings:  91%|█████████ | 10/11 [01:17<00:08,  8.19s/it]processing embeddings:  91%|█████████ | 10/11 [01:17<00:07,  7.75s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 440 到 450
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:25,  8.58s/it]processing embeddings:  18%|█▊        | 2/11 [00:18<01:23,  9.32s/it]processing embeddings:  27%|██▋       | 3/11 [00:27<01:13,  9.24s/it]processing embeddings:  36%|███▋      | 4/11 [00:36<01:04,  9.26s/it]processing embeddings:  45%|████▌     | 5/11 [00:43<00:49,  8.27s/it]processing embeddings:  55%|█████▍    | 6/11 [00:48<00:36,  7.22s/it]processing embeddings:  64%|██████▎   | 7/11 [00:53<00:25,  6.49s/it]processing embeddings:  73%|███████▎  | 8/11 [01:00<00:20,  6.77s/it]processing embeddings:  82%|████████▏ | 9/11 [01:07<00:13,  6.85s/it]processing embeddings:  91%|█████████ | 10/11 [01:16<00:07,  7.42s/it]processing embeddings:  91%|█████████ | 10/11 [01:16<00:07,  7.67s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 450 到 460
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:26,  8.61s/it]processing embeddings:  18%|█▊        | 2/11 [00:17<01:19,  8.78s/it]processing embeddings:  27%|██▋       | 3/11 [00:26<01:11,  8.92s/it]processing embeddings:  36%|███▋      | 4/11 [00:36<01:04,  9.27s/it]processing embeddings:  45%|████▌     | 5/11 [00:45<00:55,  9.18s/it]processing embeddings:  55%|█████▍    | 6/11 [00:53<00:44,  8.88s/it]processing embeddings:  64%|██████▎   | 7/11 [01:02<00:35,  8.81s/it]processing embeddings:  73%|███████▎  | 8/11 [01:11<00:26,  8.94s/it]processing embeddings:  82%|████████▏ | 9/11 [01:20<00:17,  8.82s/it]processing embeddings:  91%|█████████ | 10/11 [01:27<00:08,  8.29s/it]processing embeddings:  91%|█████████ | 10/11 [01:27<00:08,  8.73s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 460 到 470
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:05<00:59,  5.96s/it]processing embeddings:  18%|█▊        | 2/11 [00:13<01:00,  6.75s/it]processing embeddings:  27%|██▋       | 3/11 [00:22<01:02,  7.77s/it]processing embeddings:  36%|███▋      | 4/11 [00:31<00:59,  8.47s/it]processing embeddings:  45%|████▌     | 5/11 [00:41<00:52,  8.75s/it]processing embeddings:  55%|█████▍    | 6/11 [00:49<00:43,  8.75s/it]processing embeddings:  64%|██████▎   | 7/11 [00:58<00:34,  8.68s/it]processing embeddings:  73%|███████▎  | 8/11 [01:05<00:24,  8.20s/it]processing embeddings:  82%|████████▏ | 9/11 [01:14<00:16,  8.37s/it]processing embeddings:  91%|█████████ | 10/11 [01:23<00:08,  8.49s/it]processing embeddings:  91%|█████████ | 10/11 [01:24<00:08,  8.40s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 470 到 480
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:10<01:40, 10.05s/it]processing embeddings:  18%|█▊        | 2/11 [00:20<01:31, 10.12s/it]processing embeddings:  27%|██▋       | 3/11 [00:27<01:11,  8.93s/it]processing embeddings:  36%|███▋      | 4/11 [00:33<00:54,  7.80s/it]processing embeddings:  45%|████▌     | 5/11 [00:42<00:48,  8.14s/it]processing embeddings:  55%|█████▍    | 6/11 [00:51<00:42,  8.44s/it]processing embeddings:  64%|██████▎   | 7/11 [01:01<00:36,  9.05s/it]processing embeddings:  73%|███████▎  | 8/11 [01:11<00:27,  9.30s/it]processing embeddings:  82%|████████▏ | 9/11 [01:20<00:18,  9.16s/it]processing embeddings:  91%|█████████ | 10/11 [01:29<00:09,  9.12s/it]processing embeddings:  91%|█████████ | 10/11 [01:29<00:08,  8.96s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 480 到 490
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:09<01:39,  9.93s/it]processing embeddings:  18%|█▊        | 2/11 [00:19<01:24,  9.43s/it]processing embeddings:  27%|██▋       | 3/11 [00:27<01:13,  9.17s/it]processing embeddings:  36%|███▋      | 4/11 [00:36<01:03,  9.00s/it]processing embeddings:  45%|████▌     | 5/11 [00:44<00:51,  8.52s/it]processing embeddings:  55%|█████▍    | 6/11 [00:49<00:37,  7.52s/it]processing embeddings:  64%|██████▎   | 7/11 [00:56<00:29,  7.27s/it]processing embeddings:  73%|███████▎  | 8/11 [01:04<00:22,  7.44s/it]processing embeddings:  82%|████████▏ | 9/11 [01:13<00:15,  7.95s/it]processing embeddings:  91%|█████████ | 10/11 [01:22<00:08,  8.14s/it]processing embeddings:  91%|█████████ | 10/11 [01:22<00:08,  8.21s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 490 到 500
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:29,  8.96s/it]processing embeddings:  18%|█▊        | 2/11 [00:17<01:17,  8.63s/it]processing embeddings:  27%|██▋       | 3/11 [00:25<01:08,  8.61s/it]processing embeddings:  36%|███▋      | 4/11 [00:34<01:00,  8.71s/it]processing embeddings:  45%|████▌     | 5/11 [00:43<00:51,  8.53s/it]processing embeddings:  55%|█████▍    | 6/11 [00:51<00:43,  8.64s/it]processing embeddings:  64%|██████▎   | 7/11 [01:00<00:34,  8.57s/it]processing embeddings:  73%|███████▎  | 8/11 [01:06<00:23,  7.82s/it]processing embeddings:  82%|████████▏ | 9/11 [01:11<00:13,  6.95s/it]processing embeddings:  91%|█████████ | 10/11 [01:16<00:06,  6.36s/it]processing embeddings:  91%|█████████ | 10/11 [01:16<00:07,  7.66s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 500 到 510
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:08<01:25,  8.59s/it]processing embeddings:  18%|█▊        | 2/11 [00:16<01:14,  8.28s/it]processing embeddings:  27%|██▋       | 3/11 [00:24<01:04,  8.11s/it]processing embeddings:  36%|███▋      | 4/11 [00:33<00:58,  8.30s/it]processing embeddings:  45%|████▌     | 5/11 [00:42<00:51,  8.53s/it]processing embeddings:  55%|█████▍    | 6/11 [00:50<00:41,  8.35s/it]processing embeddings:  64%|██████▎   | 7/11 [00:57<00:32,  8.14s/it]processing embeddings:  73%|███████▎  | 8/11 [01:06<00:24,  8.31s/it]processing embeddings:  82%|████████▏ | 9/11 [01:14<00:16,  8.37s/it]processing embeddings:  91%|█████████ | 10/11 [01:23<00:08,  8.29s/it]processing embeddings:  91%|█████████ | 10/11 [01:24<00:08,  8.40s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 510 到 520
-processing embeddings:   0%|          | 0/11 [00:00<?, ?it/s]processing embeddings:   9%|▉         | 1/11 [00:05<00:51,  5.10s/it]processing embeddings:  18%|█▊        | 2/11 [00:10<00:45,  5.11s/it]processing embeddings:  27%|██▋       | 3/11 [00:16<00:45,  5.63s/it]processing embeddings:  36%|███▋      | 4/11 [00:25<00:48,  6.88s/it]processing embeddings:  45%|████▌     | 5/11 [00:34<00:45,  7.59s/it]processing embeddings:  55%|█████▍    | 6/11 [00:42<00:40,  8.01s/it]processing embeddings:  64%|██████▎   | 7/11 [00:51<00:32,  8.07s/it]processing embeddings:  73%|███████▎  | 8/11 [01:00<00:25,  8.37s/it]processing embeddings:  82%|████████▏ | 9/11 [01:08<00:16,  8.27s/it]processing embeddings:  91%|█████████ | 10/11 [01:16<00:08,  8.21s/it]processing embeddings:  91%|█████████ | 10/11 [01:16<00:07,  7.63s/it]
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-flash_attn is not installed. Using PyTorch native attention implementation.
-处理嵌入批次 520 到 526
-processing embeddings:   0%|          | 0/7 [00:00<?, ?it/s]processing embeddings:  14%|█▍        | 1/7 [00:08<00:52,  8.78s/it]processing embeddings:  29%|██▊       | 2/7 [00:16<00:42,  8.43s/it]processing embeddings:  43%|████▎     | 3/7 [00:23<00:30,  7.51s/it]processing embeddings:  57%|█████▋    | 4/7 [00:28<00:19,  6.53s/it]processing embeddings:  71%|███████▏  | 5/7 [00:33<00:12,  6.02s/it]processing embeddings:  86%|████████▌ | 6/7 [00:40<00:06,  6.35s/it]processing embeddings: 100%|██████████| 7/7 [00:42<00:00,  4.87s/it]processing embeddings: 100%|██████████| 7/7 [00:42<00:00,  6.05s/it]
-合并所有批次的嵌入...
-合并嵌入:   0%|          | 0/53 [00:00<?, ?it/s]合并嵌入:   2%|▏         | 1/53 [00:03<02:46,  3.20s/it]合并嵌入:   4%|▍         | 2/53 [00:04<01:40,  1.98s/it]合并嵌入:   6%|▌         | 3/53 [00:04<01:05,  1.31s/it]合并嵌入:  11%|█▏        | 6/53 [00:04<00:22,  2.12it/s]合并嵌入:  17%|█▋        | 9/53 [00:05<00:11,  3.86it/s]合并嵌入:  25%|██▍       | 13/53 [00:05<00:05,  6.71it/s]合并嵌入:  30%|███       | 16/53 [00:05<00:04,  9.10it/s]合并嵌入:  38%|███▊      | 20/53 [00:05<00:02, 12.73it/s]合并嵌入:  43%|████▎     | 23/53 [00:05<00:02, 14.82it/s]合并嵌入:  49%|████▉     | 26/53 [00:07<00:05,  4.83it/s]合并嵌入:  53%|█████▎    | 28/53 [00:13<00:20,  1.21it/s]合并嵌入:  57%|█████▋    | 30/53 [00:16<00:23,  1.01s/it]合并嵌入:  58%|█████▊    | 31/53 [00:19<00:27,  1.27s/it]合并嵌入:  60%|██████    | 32/53 [00:20<00:26,  1.28s/it]合并嵌入:  62%|██████▏   | 33/53 [00:22<00:27,  1.39s/it]合并嵌入:  64%|██████▍   | 34/53 [00:23<00:26,  1.38s/it]合并嵌入:  66%|██████▌   | 35/53 [00:25<00:28,  1.60s/it]合并嵌入:  68%|██████▊   | 36/53 [00:27<00:25,  1.51s/it]合并嵌入:  70%|██████▉   | 37/53 [00:28<00:23,  1.45s/it]合并嵌入:  72%|███████▏  | 38/53 [00:29<00:21,  1.43s/it]合并嵌入:  74%|███████▎  | 39/53 [00:30<00:16,  1.15s/it]合并嵌入:  75%|███████▌  | 40/53 [00:31<00:14,  1.09s/it]合并嵌入:  77%|███████▋  | 41/53 [00:33<00:15,  1.30s/it]合并嵌入:  79%|███████▉  | 42/53 [00:36<00:19,  1.79s/it]合并嵌入:  81%|████████  | 43/53 [00:36<00:13,  1.40s/it]合并嵌入:  83%|████████▎ | 44/53 [00:36<00:09,  1.05s/it]合并嵌入:  87%|████████▋ | 46/53 [00:36<00:04,  1.64it/s]合并嵌入:  89%|████████▊ | 47/53 [00:37<00:02,  2.07it/s]合并嵌入:  92%|█████████▏| 49/53 [00:37<00:01,  3.15it/s]合并嵌入:  94%|█████████▍| 50/53 [00:38<00:01,  1.67it/s]合并嵌入:  96%|█████████▌| 51/53 [00:40<00:01,  1.30it/s]合并嵌入:  98%|█████████▊| 52/53 [00:41<00:01,  1.03s/it]合并嵌入: 100%|██████████| 53/53 [00:41<00:00,  1.27it/s]
-开始聚类处理，使用GPU 4
-聚类完成，用时： 975.574785232544
-聚类完成，标签已保存至 outputs/test_prompt_all/dedup_eps0.2/all_files_labels_eps0.2.npy
-生成去重结果:   0%|          | 0/481838 [00:00<?, ?it/s]生成去重结果:  17%|█▋        | 80122/481838 [00:00<00:00, 801182.56it/s]生成去重结果:  34%|███▍      | 162897/481838 [00:00<00:00, 816786.57it/s]生成去重结果:  51%|█████     | 244576/481838 [00:00<00:00, 810249.70it/s]生成去重结果:  68%|██████▊   | 325608/481838 [00:00<00:00, 800706.99it/s]生成去重结果:  84%|████████▍ | 405695/481838 [00:00<00:00, 787267.28it/s]生成去重结果: 100%|██████████| 481838/481838 [00:00<00:00, 782369.96it/s]
-最终保留数据: 481838
-所有文件处理和去重完成，输出已保存至 outputs/test_prompt_all/dedup_eps0.2/all_files_dedup_eps0.2.jsonl
-数据总量: 544169
-去掉完全相同prompt后的数据量:  538826
-聚类后类别总数 481838
-聚类去重数量 56988
-总去重量 62331
-处理完成！
