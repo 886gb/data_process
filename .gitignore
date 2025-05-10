@@ -1,9 +1,23 @@
-/aix_datas/data
-/aix_datas/outputs
-Miniconda3-latest-Linux-x86_64.sh
+# 忽略 __pycache__ 目录
 __pycache__/
-data/
-outputs/
 
-load_data.py
+# 忽略 .DS_Store 文件
+.DS_Store
+._.DS_Store
+
+# 忽略 Python 编译文件
+*.pyc
+*.pyo
+*.pyd
+
+# 大文件
+/aix_datas/14_data_process/data
+/aix_datas/14_data_process/outputs
+
+/aix_datas/local_data_process/data
+/aix_datas/local_data_process/output
+
+# 敏感信息
+/aix_datas/14_data_process/load_data.py
+/aix_datas/local_data_process/load_data.py
 
