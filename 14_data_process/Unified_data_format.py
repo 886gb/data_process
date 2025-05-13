@@ -1,6 +1,26 @@
 import json
+import logging
+import os
+
+
+
+# 设置日志
+def setup_logging(log_file):
+    log_dir = os.path.dirname(log_file)
+    if not os.path.exists(log_dir):
+        os.makedirs(log_dir)
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(asctime)s - %(levelname)s - %(message)s',
+        handlers=[
+            logging.FileHandler(log_file), # 输出日志到文件
+            logging.StreamHandler() # 输出日志到控制台
+        ]
+    )
+
 
 def exact_preference_data(prompt, prompt_source, metadata, source_prompt_id):
+    logging.info(f"source_prompt_id: {source_prompt_id}")
     if "Skywork" in prompt_source:
         chosen = metadata['chosen'][1]['content']
         rejected = metadata['rejected'][1]['content']
@@ -88,16 +108,21 @@ def exact_preference_data(prompt, prompt_source, metadata, source_prompt_id):
             rejected = metadata['original_response']
     else:
         raise ValueError(f"Unknown preference prompt source: {prompt_source}")
-    print(source_prompt_id)
+
     return prompt, chosen, rejected
 
 
 def exact_sft_data(prompt_source, metadata, source_prompt_id):
+    logging.info(f"source_prompt_id: {source_prompt_id}")
     if "AI-MO" in prompt_source:
         answer = metadata['solution']
     elif "allenai" in prompt_source:
         if "tulu-3-sft-olmo-2-mixture-0225" in source_prompt_id:
-            answer = metadata['messages'][1]['content']
+            if len(metadata['messages']) == 2:
+                answer = metadata['messages'][1]['content']
+            else:
+                breakpoint()
+                answer = ""
         elif "tulu-3-sft-personas-math" in source_prompt_id:
             answer = metadata['messages'][1]['content']
         elif "tulu-3-sft-personas-code" in source_prompt_id:
@@ -117,11 +142,12 @@ def exact_sft_data(prompt_source, metadata, source_prompt_id):
         answer = metadata['output']
     else:
         raise ValueError(f"Unknown sft_prompt source: {prompt_source}")
-    print(source_prompt_id)
+    
     return answer
 
 
-def exact_cot_data(prompt_source, metadata):
+def exact_cot_data(prompt_source, metadata, source_prompt_id):
+    logging.info(f"source_prompt_id: {source_prompt_id}")
     if "KodCode" in prompt_source:
         start = metadata['conversations'][1]['value'].find("<think>")
         end = metadata['conversations'][1]['value'].find("</think>")
@@ -176,15 +202,17 @@ def exact_cot_data(prompt_source, metadata):
         thinking = metadata['output'][start+7:end]
         answer = metadata['output'][end+8:]
     else:
-        breakpoint()
         raise ValueError(f"Unknown cot prompt source: {prompt_source}")
+
     return thinking, answer
 
 
 
-def process_preference_data(file_path, output_file):
-    with open(file_path, 'r') as f:
-        for line in f:
+def process_preference_data(input_file, output_file):
+    with open(input_file, 'r') as f:
+        lines = f.readlines()
+        logging.info(f"文件{input_file}有{len(lines)}条数据")
+        for line in lines:
             # breakpoint()
             line = json.loads(line)
             metadata = line['metadata']
@@ -192,8 +220,6 @@ def process_preference_data(file_path, output_file):
             metadata = json.loads(metadata)
             prompt_raw = line['prompt']
             prompt, chosen, rejected = exact_preference_data(prompt_raw, prompt_source, metadata, line['source_prompt_id'])
-            # if chosen == "" and rejected == "":
-            #     continue
             data = {"all_prompt_id": line['all_prompt_id'],
                     "source_prompt_id": line['source_prompt_id'],
                     "prompt": prompt,
@@ -202,15 +228,24 @@ def process_preference_data(file_path, output_file):
                     "metadata": metadata}
             with open(output_file, 'a') as f:
                 f.write(json.dumps(data, ensure_ascii=False) + '\n')
+    with open(output_file, 'r') as f:
+        lines = f.readlines()
+        logging.info(f"统一数据格式后文件{output_file}有{len(lines)}条数据")
 
-def process_cot_data(file_path, output_file):
-    with open(file_path, 'r') as f:
-        for line in f:
+
+
+
+
+def process_cot_data(input_file, output_file):
+    with open(input_file, 'r') as f:
+        lines = f.readlines()
+        logging.info(f"文件{input_file}有{len(lines)}条数据")
+        for line in lines:
             line = json.loads(line)
             metadata = line['metadata']
             prompt_source = line['source_prompt_id'].split('/')[-2]
             metadata = json.loads(metadata)
-            thinking, answer = exact_cot_data(prompt_source, metadata)
+            thinking, answer = exact_cot_data(prompt_source, metadata, line['source_prompt_id'])
             data = {"all_prompt_id": line['all_prompt_id'],
                     "source_prompt_id": line['source_prompt_id'],
                     "prompt": line['prompt'],
@@ -219,11 +254,23 @@ def process_cot_data(file_path, output_file):
                     "metadata": metadata}
             with open(output_file, 'a') as f:
                 f.write(json.dumps(data, ensure_ascii=False) + '\n')
+    with open(output_file, 'r') as f:
+        lines = f.readlines()
+        logging.info(f"统一数据格式后文件{output_file}有{len(lines)}条数据")
 
-def process_sft_data(file_path, output_file):
-    with open(file_path, 'r') as f:
-        for line in f:
+
+
+
+
+def process_sft_data(input_file, output_file):
+    with open(input_file, 'r') as f:
+        lines = f.readlines()
+        logging.info(f"文件{input_file}有{len(lines)}条数据")
+        for line in lines:
             line = json.loads(line)
+            # if line['source_prompt_id'] != "738526_/data/SFT/allenai/tulu-3-sft-olmo-2-mixture-0225":
+            #     continue
+            # breakpoint()
             metadata = line['metadata']
             prompt_source = line['source_prompt_id'].split('/')[-2]
             metadata = json.loads(metadata)
@@ -235,6 +282,10 @@ def process_sft_data(file_path, output_file):
                     "metadata": metadata}
             with open(output_file, 'a') as f:
                 f.write(json.dumps(data, ensure_ascii=False) + '\n')
+    with open(output_file, 'r') as f:
+        lines = f.readlines()
+        logging.info(f"统一数据格式后文件{output_file}有{len(lines)}条数据")
+
 
 
 def process_files(input_file, output_file):
@@ -259,10 +310,41 @@ def process_files(input_file, output_file):
 
 if __name__ == "__main__":
     
-    input_file = "data/test_COT_all.json"
     
-    output_file = "outputs/test/process/test_COT_all.json"
+    # 处理SFT数据
+    input_file = "outputs/SFT_all/all_dedup_eps0.2/all_files_dedup_eps0.2.jsonl"
+    output_file = "outputs/SFT_all/all_dedup_eps0.2/all_files_unified_eps0.2.jsonl"
+    log_file = "logs/Unified_data_format/SFT_all/all_files_dedup_eps0.2.log"
     
     
+    
+    # 处理偏好数据
+    # input_file = "outputs/preference_all/dedup_eps0.3/all_files_dedup_eps0.3.jsonl"
+    # output_file = "outputs/preference_all/dedup_eps0.3/all_files_unified_eps0.3.jsonl"
+    
+    # input_file = "data/test_preference_all.json"
+    # output_file = "outputs/test/process/test_preference_all.json"
+    
+    # log_file = "logs/Unified_data_format/preference/all_files_unified_eps0.3.log"
+    
+    
+    
+    
+    
+    
+    # 处理COT数据
+    # input_file = "outputs/COT_all/dedup_eps0.1/all_files_dedup_eps0.1.jsonl"
+    # output_file = "outputs/COT_all/dedup_eps0.1/all_files_unified_eps0.1.jsonl"
+    
+    # # input_file = "data/test_COT_all.json"
+    # # output_file = "outputs/test/process/test_COT_all.json"
+    
+    # log_file = "logs/Unified_data_format/COT_all/dedup_eps0.1.log"
+    
+    
+    
+    setup_logging(log_file)
+    logging.info(f"开始处理文件{input_file}")
     process_files(input_file, output_file)
-    print("done,文件保存到", output_file)
+    logging.info(f"done, 文件保存到{output_file}")
+    
