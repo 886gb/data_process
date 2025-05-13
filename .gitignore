@@ -15,6 +15,10 @@ __pycache__/
 14_data_process/outputs/
 local_data_process/data/
 local_data_process/output/
+14_data_process/logs/
+
+
+
 
 # 配置信息
 14_data_process/load_data.py
