@@ -112,17 +112,23 @@ def exact_preference_data(prompt, prompt_source, metadata, source_prompt_id):
     return prompt, chosen, rejected
 
 
-def exact_sft_data(prompt_source, metadata, source_prompt_id):
+def exact_sft_data(prompt, prompt_source, metadata, source_prompt_id):
     logging.info(f"source_prompt_id: {source_prompt_id}")
     if "AI-MO" in prompt_source:
         answer = metadata['solution']
     elif "allenai" in prompt_source:
         if "tulu-3-sft-olmo-2-mixture-0225" in source_prompt_id:
-            if len(metadata['messages']) == 2:
-                answer = metadata['messages'][1]['content']
-            else:
-                breakpoint()
+            prompt = []
+            answer = []
+            if len(metadata['messages']) == 1:
+                print(f"source_prompt_id: {source_prompt_id} 没有对话")
+                # 只有一条这样的数据
                 answer = ""
+            else:
+                for i in range(0, len(metadata['messages']), 2):
+                    prompt.append(metadata['messages'][i]['content'])
+                    answer.append(metadata['messages'][i+1]['content'])
+    
         elif "tulu-3-sft-personas-math" in source_prompt_id:
             answer = metadata['messages'][1]['content']
         elif "tulu-3-sft-personas-code" in source_prompt_id:
@@ -142,8 +148,7 @@ def exact_sft_data(prompt_source, metadata, source_prompt_id):
         answer = metadata['output']
     else:
         raise ValueError(f"Unknown sft_prompt source: {prompt_source}")
-    
-    return answer
+    return prompt, answer
 
 
 def exact_cot_data(prompt_source, metadata, source_prompt_id):
@@ -268,16 +273,16 @@ def process_sft_data(input_file, output_file):
         logging.info(f"文件{input_file}有{len(lines)}条数据")
         for line in lines:
             line = json.loads(line)
-            # if line['source_prompt_id'] != "738526_/data/SFT/allenai/tulu-3-sft-olmo-2-mixture-0225":
+            # if   "tulu-3-sft-olmo-2-mixture-0225" not in line['source_prompt_id']:
             #     continue
-            # breakpoint()
             metadata = line['metadata']
             prompt_source = line['source_prompt_id'].split('/')[-2]
             metadata = json.loads(metadata)
-            answer = exact_sft_data(prompt_source, metadata, line['source_prompt_id'])
+            prompt_raw = line['prompt']
+            prompt, answer = exact_sft_data(prompt_raw, prompt_source, metadata, line['source_prompt_id'])
             data = {"all_prompt_id": line['all_prompt_id'],
                     "source_prompt_id": line['source_prompt_id'],
-                    "prompt": line['prompt'],
+                    "prompt": prompt,
                     "answer": answer,
                     "metadata": metadata}
             with open(output_file, 'a') as f:
@@ -317,7 +322,6 @@ if __name__ == "__main__":
     log_file = "logs/Unified_data_format/SFT_all/all_files_dedup_eps0.2.log"
     
     
-    
     # 处理偏好数据
     # input_file = "outputs/preference_all/dedup_eps0.3/all_files_dedup_eps0.3.jsonl"
     # output_file = "outputs/preference_all/dedup_eps0.3/all_files_unified_eps0.3.jsonl"
@@ -326,9 +330,6 @@ if __name__ == "__main__":
     # output_file = "outputs/test/process/test_preference_all.json"
     
     # log_file = "logs/Unified_data_format/preference/all_files_unified_eps0.3.log"
-    
-    
-    
     
     
     

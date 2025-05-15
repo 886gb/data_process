@@ -293,14 +293,14 @@ if __name__ == "__main__":
     eps = 0.1
     embedding_dir = 'outputs/preference_all/embeddings'
     output_path = 'outputs/preference_all/dedup_eps' + str(eps)
-    
+    gpu_id = '2'
     os.makedirs(embedding_dir, exist_ok=True)
     os.makedirs(output_path, exist_ok=True)
     
     # 使用分批处理函数
     process_all_files_in_batches(
         input_file_path=input_file_path,
-        gpu_id='2',
+        gpu_id=gpu_id,
         output_dir=output_path,
         embedding_dir=embedding_dir,
         eps=eps,
